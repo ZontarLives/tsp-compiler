@@ -1,0 +1,1 @@
+\b(createMoment|triggerEvent|scenerylink|clearEvent|entityRef|interface|interact|settings|addtext|dismiss|hotlink|hotprop|initial|newline|present|scenery|itemui|onExit|resume|topics|chain|call|drop|each|gate|goto|hide|init|link|look|move|once|play|stop|talk|text|set|if|i)\b[ \t]*([\w'. ]*)

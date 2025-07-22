@@ -1,0 +1,88 @@
+{
+   "Shoes": {
+      "type": "item",
+      "tag": "item",
+      "id": "Shoes",
+      "attrs": {
+         "location": "player"
+      },
+      "props": {
+         "worn": true,
+         "untied": false
+      },
+      "body": [
+         {
+            "type": "text",
+            "tag": "text",
+            "body": "It looks like the heel is loose."
+         },
+         {
+            "type": "text",
+            "tag": "newline",
+            "body": "\n\n"
+         }
+      ]
+   },
+   "Watch": {
+      "type": "item",
+      "tag": "item",
+      "id": "Watch",
+      "attrs": {
+         "location": "player"
+      },
+      "props": {
+         "worn": false
+      },
+      "body": [
+         {
+            "type": "text",
+            "tag": "text",
+            "body": "527 turns till midnight."
+         },
+         {
+            "type": "text",
+            "tag": "newline",
+            "body": "\n"
+         }
+      ]
+   },
+   "Hard Dry Chewing Gum": {
+      "type": "item",
+      "tag": "item",
+      "id": "Hard Dry Chewing Gum",
+      "attrs": {
+         "location": "player"
+      },
+      "props": {
+         "chewed": false
+      },
+      "body": [
+         {
+            "type": "text",
+            "tag": "text",
+            "body": "I see nothing special."
+         },
+         {
+            "type": "text",
+            "tag": "newline",
+            "body": "\n"
+         }
+      ]
+   },
+   "five dollar bill": {
+      "type": "item",
+      "tag": "item",
+      "id": "five dollar bill",
+      "attrs": {
+         "location": "parking lot"
+      },
+      "props": {},
+      "body": [
+         {
+            "type": "text",
+            "tag": "text",
+            "body": "I see nothing special."
+         }
+      ]
+   }
+}

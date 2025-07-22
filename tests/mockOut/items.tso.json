@@ -1,0 +1,398 @@
+[
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 0,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 2,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "Shoes",
+      "pos": 5,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 11,
+      "line": 3
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 14,
+      "line": 3
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 19,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 20,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 28,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "player",
+      "pos": 30,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 37,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "states",
+      "pos": 39,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 45,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "worn",
+      "pos": 47,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_STATE_ASSIGN",
+      "value": "=",
+      "pos": 52,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "true",
+      "pos": 54,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_STATE_DELIM",
+      "value": ",",
+      "pos": 58,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "untied",
+      "pos": 60,
+      "line": 3
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 66,
+      "line": 3
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 68,
+      "line": 4
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It looks like the heel is loose.",
+      "pos": 68,
+      "line": 4
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n\n",
+      "pos": 100,
+      "line": 4
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 103,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "Watch",
+      "pos": 106,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 112,
+      "line": 7
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 114,
+      "line": 7
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 119,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 120,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 128,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "player",
+      "pos": 130,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 137,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "states",
+      "pos": 139,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 145,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "worn",
+      "pos": 147,
+      "line": 7
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 151,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 153,
+      "line": 8
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "527 turns till midnight.",
+      "pos": 153,
+      "line": 8
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 177,
+      "line": 8
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 179,
+      "line": 10
+   },
+   {
+      "type": "PHRASE",
+      "value": "Hard Dry Chewing Gum",
+      "pos": 182,
+      "line": 10
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 203,
+      "line": 10
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 206,
+      "line": 10
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 211,
+      "line": 10
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 212,
+      "line": 10
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 220,
+      "line": 10
+   },
+   {
+      "type": "PHRASE",
+      "value": "player",
+      "pos": 222,
+      "line": 10
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 229,
+      "line": 10
+   },
+   {
+      "type": "PHRASE",
+      "value": "states",
+      "pos": 231,
+      "line": 10
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 237,
+      "line": 10
+   },
+   {
+      "type": "PHRASE",
+      "value": "chewed",
+      "pos": 239,
+      "line": 10
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 245,
+      "line": 10
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 247,
+      "line": 11
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "I see nothing special.",
+      "pos": 247,
+      "line": 11
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 269,
+      "line": 11
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 271,
+      "line": 13
+   },
+   {
+      "type": "PHRASE",
+      "value": "five dollar bill",
+      "pos": 274,
+      "line": 13
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 291,
+      "line": 13
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 294,
+      "line": 13
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 299,
+      "line": 13
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 300,
+      "line": 13
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 308,
+      "line": 13
+   },
+   {
+      "type": "PHRASE",
+      "value": "parking lot",
+      "pos": 310,
+      "line": 13
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 321,
+      "line": 13
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 323,
+      "line": 14
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "I see nothing special.",
+      "pos": 323,
+      "line": 14
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 345,
+      "line": 14
+   },
+   {
+      "type": "EOF",
+      "value": "",
+      "pos": 346,
+      "line": 15
+   }
+]

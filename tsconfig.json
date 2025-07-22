@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2021",
+		"module": "commonjs",
+		"resolveJsonModule": true,                        /* Enable importing .json files. */
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+
+		"outDir": "./dist/",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"useUnknownInCatchVariables": false,
+	},
+	"include": [
+		"src/**/*"
+	]
+}
+

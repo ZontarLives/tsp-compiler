@@ -1,0 +1,1 @@
+(?i)\b(is\s+not\s+>=|is\s+not\s+in|is\s+not\s+>|is\s+not\s+<=|is\s+not\s+<|is\s+not|is\s+in|is\s+>=|is\s+<=|is\s+>|is\s+<|is|are\s+not\s+>=|are\s+not\s+in|are\s+not\s+<=|are\s+not\s+>|are\s+not\s+<|are\s+not|are\s+>=|are\s+<=|are\s+in|are\s+>|are\s+<|are|has\s+been|has\s+not\s+been)\b[ \t]*([\w'. ]*)

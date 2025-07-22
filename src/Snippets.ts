@@ -1,0 +1,90 @@
+export class Snippets {
+    static generateSnippets() {
+
+        // Generate an actions snippet
+        return {
+            "player": {
+                id: 'player',
+                uid: '$_uid_',
+                type: 'npc',
+                attrs: {
+                    pronoun: 'proper',
+                    location: '$_startloc_',
+                },
+                states: {
+                    position: '$_startloc_',
+                    encountered: true,
+                    met: true,
+                },
+            },
+            "offstage": {
+                id: 'offstage',
+                uid: '$_uid_',
+                type: 'location',
+                tag: 'location',
+                displayName: 'Offstage',
+                states: {
+                    "visited": false,
+                    "entries": 0
+                },
+                body: [
+                    {
+                        type: "text",
+                        uid: "$_uid_",
+                        tag: "text",
+                        body: "You should not be here."
+                    },
+                ]
+            },
+            item_actions: {
+                type: "macro",
+                uid: "$_uid_",
+                tag: "actions",
+                body: [
+                    {
+                        type: "macro",
+                        uid: "$_uid_",
+                        tag: "action",
+                        inlineText: "Take it",
+                        cond: [
+                            {
+                                lval: "$_entityid_",
+                                op: "is not",
+                                rval: "carried"
+                            }
+                        ],
+                        body: [
+                            {
+                                type: "assignment",
+                                uid: "$_uid_",
+                                tag: "takeitem",
+                                id: "$_entityid_",
+                            }
+                        ]
+                    },
+                    {
+                        type: "macro",
+                        uid: "$_uid_",
+                        tag: "action",
+                        inlineText: "Drop it",
+                        cond: [
+                            {
+                                lval: "$_entityid_",
+                                op: "is",
+                                rval: "carried"
+                            }
+                        ],
+                        body: [
+                            {
+                                type: "assignment",
+                                uid: "$_uid_",
+                                tag: "dropitem",
+                                id: "$_entityid_",
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
