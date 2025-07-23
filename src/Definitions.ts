@@ -165,6 +165,13 @@ export const definitions: Record<string, CommandDefinition> = {
         flags: state.optional,
         body: state.required,
     },
+    fixed: {
+        type: cmdType.entity,
+        id: state.required,
+        attrs: state.optional,
+        flags: state.optional,
+        body: state.required,
+    },
     itemdefaults: {
         type: cmdType.entity,
         id: state.required,

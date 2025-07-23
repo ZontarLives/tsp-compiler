@@ -11,7 +11,7 @@ import {amber, cpath, intr, lexerr} from "./Logger";
 import {getCommandDefinition, Verification} from "./Verification";
 import {CommandDefinition, definitions, state} from "./Definitions";
 
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 
 
 /**

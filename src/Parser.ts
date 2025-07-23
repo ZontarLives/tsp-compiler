@@ -14,7 +14,7 @@ import {
     Verification
 } from "./Verification";
 
-let DEBUG_MODE = true;
+let DEBUG_MODE = false;
 let DEBUG_REFERENCE_BUILD = false;
 
 /**
