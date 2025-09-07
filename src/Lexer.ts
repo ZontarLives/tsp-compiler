@@ -188,7 +188,7 @@ const WHITESPACE_PAT = /^([ \t]+)/;
 const WORD_PAT = /^([\w']+)[ \t]*/;
 const KEYWORD_PAT = /^\s*([\w' .\-"@#$%&*]+)(?=\s*(?!\1))/;
 // const PARAGRAPH_PAT = /^([\w' .,!?:;\-"@#$%&*\`\(\)\<\>]+)[\t]*/;
-const PARAGRAPH_PAT = /^((?:(?!<\w+(?:\s*\([^)]*\))?\s*>)[\w' .,!?:;\-~"@#%&*\`\(\)\+=\<\>\/\|\\])+)[\t]*/;
+const PARAGRAPH_PAT = /^((?:(?!<\w+(?:\s*\([^)]*\))?\s*>)[\w' .,!?:;\-~"@#%&*\`\(\)\+=\<\>\/\|\\])+(?:\s+(?=[\{\[\^~]))?)\s*/;
 const INLINE_PAT = /^([\w' .,!?:;\-"@#$%&*\(\)]+)[ \t]*/;
 const SYMBOL_PAT = /^([^\w\s])\s*/;
 const ENTITY_SYMBOL_PAT = /^([\(\)'])\s*/;

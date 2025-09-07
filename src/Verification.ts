@@ -770,8 +770,40 @@ export class Verification {
                 if (element instanceof Command) {
                     
                     // If the `element` is of type text and the previous command does not have a flow of inline, trim the whitespace from the start of `element`
-                    if (element.type === cmdType.text) {
-                        element.body = (element.body! as string).replace(/^\s+|\s+$/g, '');;
+                    if (element.type === cmdType.text && typeof element.body === 'string') {
+                        const prevElement = index > 0 ? commandBody[index - 1] : null;
+                        const nextElement = index < commandBody.length - 1 ? commandBody[index + 1] : null;
+                        
+                        // Check if previous element is an inline link type (itemlink, scenerylink, hotlink, etc.)
+                        const prevIsInlineLink = prevElement && (
+                            prevElement.type === cmdType.itemlink || 
+                            prevElement.type === cmdType.scenerylink ||
+                            prevElement.type === cmdType.hotlink ||
+                            prevElement.type === cmdType.entityRef
+                        );
+                        
+                        // Check if next element is an inline link type
+                        const nextIsInlineLink = nextElement && (
+                            nextElement.type === cmdType.itemlink || 
+                            nextElement.type === cmdType.scenerylink ||
+                            nextElement.type === cmdType.hotlink ||
+                            nextElement.type === cmdType.entityRef
+                        );
+                        
+                        // Trim whitespace more carefully
+                        let text = element.body as string;
+                        
+                        // Only trim leading space if previous element is NOT an inline link
+                        if (!prevIsInlineLink) {
+                            text = text.replace(/^\s+/, '');
+                        }
+                        
+                        // Only trim trailing space if next element is NOT an inline link
+                        if (!nextIsInlineLink) {
+                            text = text.replace(/\s+$/, '');
+                        }
+                        
+                        element.body = text;
                     }
                     // Recurse into the element's body and leadin properties, if they exist 
                     if (element.body || element.leadin) {
