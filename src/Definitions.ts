@@ -23,6 +23,7 @@ export enum cmdType {
     entityRef   = 'entityRef',   // A reference to an entity in body text. Selecting brings up info about the entity
     hotlink     = 'hotlink',     // Selecting executes related code
     itemlink    = 'itemlink',    // Selecting executes related code
+    npclink     = 'npclink',     // Selecting executes NPC interaction code
     location    = 'location',    // Like definition, but can only exist at the root of the data tree
     macro       = 'macro',       // Execution of handler, no preserved state
     option      = 'option',      // Like macro, but exists only in the body with contentType: structure
@@ -237,6 +238,12 @@ export const definitions: Record<string, CommandDefinition> = {
     // },
     itemlink: {
         type: cmdType.itemlink,
+        id: state.required,
+        inlineText: state.optional,
+        flow: flow.inline,
+    },
+    npclink: {
+        type: cmdType.npclink,
         id: state.required,
         inlineText: state.optional,
         flow: flow.inline,

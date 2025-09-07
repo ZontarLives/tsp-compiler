@@ -120,6 +120,9 @@ export class Verification {
             this.verifySceneryReferences(cmdData);
             this.verifySceneryOptionIds(cmdData, parser);
         }
+        else if (cmdData.type === 'npclink') {
+            this.verifyNpcLinks(cmdData, parser);
+        }
         else {
             // Handle undefined entity references (must be called after all the conditional verifications above have
             // been executed)
@@ -167,6 +170,37 @@ export class Verification {
             // Step through scenerylinks for the parent entity and verify that cmdData.id is valid
             if (!parser.currentSceneryReferences.hasOwnProperty(cmdData.id!)) {
                 addError(cmdData, `Invalid scenery reference ^${cmdData.id}^ in entity '${parser.currentEntityDef.id}' ${advisement('(will be safely ignored)')}`);
+            }
+        }
+    }
+
+    /**
+     * Verifies that NPC links reference valid NPC entities.
+     * Similar to how itemlinks reference item entities.
+     */
+    private static verifyNpcLinks(cmdData: CommandData, parser: Parser) {
+        if (cmdData.type === 'npclink') {
+            // Verify the referenced NPC exists in the entity references
+            const npcId = cmdData.id;
+            const npcEntity = this.entityReferences[npcId!];
+            
+            if (!npcEntity || npcEntity.type !== EntityTypes.npc) {
+                addError(cmdData, `Invalid NPC reference ~${npcId}~ - no NPC entity with this ID found`);
+            }
+            
+            // Verify context is appropriate for NPC references
+            if (!cmdData.parentEntity) {
+                throw cmderr(cmdData, `NPC reference occurs outside of an entity`);
+            }
+            
+            const entityType = cmdData.parentEntity.type;
+            // NPCs can be referenced in locations, items, fixed items, or other NPCs
+            if (entityType !== EntityTypes.location && 
+                entityType !== EntityTypes.item &&
+                entityType !== EntityTypes.fixed && 
+                entityType !== EntityTypes.npc) {
+                addError(cmdData, `NPC reference occurs in invalid entity '${cmdData.parentEntity.id}'`);
+                addError(cmdData, `\tNPC references are only valid in entities of type 'location', 'item', 'fixed', or 'npc'`);
             }
         }
     }
@@ -777,6 +811,7 @@ export class Verification {
                         // Check if previous element is an inline link type (itemlink, scenerylink, hotlink, etc.)
                         const prevIsInlineLink = prevElement && (
                             prevElement.type === cmdType.itemlink || 
+                            prevElement.type === cmdType.npclink ||
                             prevElement.type === cmdType.scenerylink ||
                             prevElement.type === cmdType.hotlink ||
                             prevElement.type === cmdType.entityRef
@@ -785,6 +820,7 @@ export class Verification {
                         // Check if next element is an inline link type
                         const nextIsInlineLink = nextElement && (
                             nextElement.type === cmdType.itemlink || 
+                            nextElement.type === cmdType.npclink ||
                             nextElement.type === cmdType.scenerylink ||
                             nextElement.type === cmdType.hotlink ||
                             nextElement.type === cmdType.entityRef

@@ -283,21 +283,9 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": " Mystery Puzzle House",
+      "value": " Mystery Puzzle House\n\t",
       "pos": 141,
       "line": 7
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 162,
-      "line": 7
-   },
-   {
-      "type": "WHITESPACE",
-      "value": "\t",
-      "pos": 163,
-      "line": 8
    },
    {
       "type": "MACRO_OPEN",
@@ -373,21 +361,9 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": " A short, selection-based mystery game demo.",
+      "value": " A short, selection-based mystery game demo.\n\t",
       "pos": 196,
       "line": 9
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 240,
-      "line": 9
-   },
-   {
-      "type": "WHITESPACE",
-      "value": "\t",
-      "pos": 241,
-      "line": 10
    },
    {
       "type": "MACRO_OPEN",
@@ -457,21 +433,9 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": " for demonstrating the capabilities of the TaleSpinner language.  It may contain some spoilers for the original game.",
+      "value": " for demonstrating the capabilities of the TaleSpinner language.  It may contain some spoilers for the original game.\n\t",
       "pos": 317,
       "line": 10
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 434,
-      "line": 10
-   },
-   {
-      "type": "WHITESPACE",
-      "value": "\t",
-      "pos": 435,
-      "line": 11
    },
    {
       "type": "MACRO_OPEN",
@@ -493,14 +457,8 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": " (c) 2024 Pete Gardner",
+      "value": " (c) 2024 Pete Gardner\n",
       "pos": 447,
-      "line": 11
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 469,
       "line": 11
    },
    {
@@ -567,12 +525,6 @@
       "type": "PARAGRAPH",
       "value": "I'm in front of the FUN HOUSE.",
       "pos": 518,
-      "line": 18
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n\n",
-      "pos": 548,
       "line": 18
    },
    {
@@ -745,21 +697,9 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": "I see nothing special.",
+      "value": "I see nothing special.\n\t",
       "pos": 653,
       "line": 25
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 675,
-      "line": 25
-   },
-   {
-      "type": "WHITESPACE",
-      "value": "\t",
-      "pos": 676,
-      "line": 26
    },
    {
       "type": "MACRO_OPEN",
@@ -799,14 +739,8 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": "I see nothing special.",
+      "value": "I see nothing special.\n",
       "pos": 701,
-      "line": 27
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 723,
       "line": 27
    },
    {
@@ -873,12 +807,6 @@
       "type": "PARAGRAPH",
       "value": "I'm in a parking lot.",
       "pos": 763,
-      "line": 31
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n\n",
-      "pos": 784,
       "line": 31
    },
    {
@@ -1075,21 +1003,9 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": "I see a shiny coin at the bottom of the drain! Two big bolts hold it down.",
+      "value": "I see a shiny coin at the bottom of the drain! Two big bolts hold it down.\n\t",
       "pos": 944,
       "line": 38
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 1018,
-      "line": 38
-   },
-   {
-      "type": "WHITESPACE",
-      "value": "\t",
-      "pos": 1019,
-      "line": 39
    },
    {
       "type": "MACRO_OPEN",
@@ -1129,14 +1045,8 @@
    },
    {
       "type": "PARAGRAPH",
-      "value": "Only thing left is one bare branch.",
+      "value": "Only thing left is one bare branch.\n",
       "pos": 1039,
-      "line": 40
-   },
-   {
-      "type": "NEWLINES",
-      "value": "\n",
-      "pos": 1074,
       "line": 40
    },
    {

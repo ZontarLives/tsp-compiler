@@ -185,7 +185,7 @@ export class Parser {
                 commandList.push(this.parseScenery(entity));
             }
             else if (this.cursor.check(TokenType.ENTITY_REF_DELIMITER)) {
-                commandList.push(this.parseEntityRef(entity));
+                commandList.push(this.parseNpcLink(entity));
             }
             else if (this.cursor.check(TokenType.TO_STRING)) {
                 commandList.push(this.parseToString());
@@ -381,7 +381,7 @@ export class Parser {
                 commandList.push(this.parseScenery(parentEntity));
             }
             else if (this.cursor.check(TokenType.ENTITY_REF_DELIMITER)) {
-                commandList.push(this.parseEntityRef(parentEntity));
+                commandList.push(this.parseNpcLink(parentEntity));
             }
             else if (this.cursor.check(TokenType.TO_STRING)) {
                 commandList.push(this.parseToString());
@@ -540,7 +540,7 @@ export class Parser {
                 commandList.push(this.parseScenery(optionMacro));
             }
             else if (this.cursor.check(TokenType.ENTITY_REF_DELIMITER)) {
-                commandList.push(this.parseEntityRef(parentEntity));
+                commandList.push(this.parseNpcLink(parentEntity));
             }
             else if (this.cursor.check(TokenType.TO_STRING)) {
                 commandList.push(this.parseToString());
@@ -665,6 +665,28 @@ export class Parser {
         return result;
     }
 
+    /**
+     * Parses NPC references in the form ~NpcName~
+     * Similar to itemlink, references standalone NPC entities.
+     * @private
+     */
+    private parseNpcLink(parentEntity: CommandData): Command {
+        let npcLink: CommandData = {
+            type: cmdType.npclink,
+            uid: generateUniqueId(),
+            tag: cmdType.npclink,
+            line: this.cursor.line(),
+            file: this.filename,
+            parentEntity: parentEntity
+        };
+        this.cursor.match("npc link open", TokenType.ENTITY_REF_DELIMITER);
+        npcLink.id = this.cursor.consume("npc id", TokenType.KEYWORD).value;
+        npcLink.inlineText = this.consumeInline() || undefined;
+        this.cursor.match("npc link close", TokenType.ENTITY_REF_DELIMITER);
+        const result = Command.construct(npcLink, parentEntity, this);
+        return result;
+    }
+
     private consumeInline() {
         let result = '';
         if (this.cursor.match("inline delim", TokenType.INLINE_DELIM)) {
@@ -700,20 +722,6 @@ export class Parser {
         return sceneryReference;
     }
 
-    private parseEntityRef(parentEntity: CommandData): Command {
-        let entityRef: CommandData = {
-            type: cmdType.entityRef,
-            uid: generateUniqueId(),
-            tag: cmdType.entityRef,
-            line: this.cursor.line(),
-            file: this.filename,
-            parentEntity: parentEntity
-        };
-        this.cursor.match("opening entity ref delim", TokenType.ENTITY_REF_DELIMITER);
-        entityRef.id = this.cursor.consume("entity ref id", TokenType.KEYWORD).value;
-        this.cursor.match("closing entity ref delim", TokenType.ENTITY_REF_DELIMITER);
-        return Command.construct(entityRef, parentEntity,this);
-    }
 
     private parseToString(): Command {
         let toString: CommandData = {

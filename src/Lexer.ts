@@ -188,7 +188,7 @@ const WHITESPACE_PAT = /^([ \t]+)/;
 const WORD_PAT = /^([\w']+)[ \t]*/;
 const KEYWORD_PAT = /^\s*([\w' .\-"@#$%&*]+)(?=\s*(?!\1))/;
 // const PARAGRAPH_PAT = /^([\w' .,!?:;\-"@#$%&*\`\(\)\<\>]+)[\t]*/;
-const PARAGRAPH_PAT = /^((?:(?!<\w+(?:\s*\([^)]*\))?\s*>)[\w' .,!?:;\-~"@#%&*\`\(\)\+=\<\>\/\|\\])+(?:\s+(?=[\{\[\^~]))?)\s*/;
+const PARAGRAPH_PAT = /^((?:(?!<\w+(?:\s*\([^)]*\))?\s*>)[\w' .,!?:;\-"@#%&*\`\(\)\+=\<\>\/\|\\])+(?:\s+(?=[\{\[\^~]))?)\s*/;
 const INLINE_PAT = /^([\w' .,!?:;\-"@#$%&*\(\)]+)[ \t]*/;
 const SYMBOL_PAT = /^([^\w\s])\s*/;
 const ENTITY_SYMBOL_PAT = /^([\(\)'])\s*/;
@@ -764,13 +764,13 @@ export class Lexer {
             }
             else {
                 const prevToken = this.tokens[this.tokens.length - 1];
-                // When last token is not type ENTITY_DELIM_PAT, user might have forgotten the closing scenery marker
+                // When last token is not type ENTITY_DELIM_PAT, user might have forgotten the closing NPC link marker
                 if (prevToken.type !== TokenType.ENTITY_REF_DELIMITER) {
-                    throw lexerr(this, `Malformed Entity Reference pattern (missing closing '~'?)`);
+                    throw lexerr(this, `Malformed NPC link pattern (missing closing '~'?)`);
                 }
                 else {
-                    // Any other error is a malformed macro
-                    throw lexerr(this, `Malformed Entity Reference pattern`);
+                    // Any other error is a malformed NPC link
+                    throw lexerr(this, `Malformed NPC link pattern`);
                 }
             }
         }

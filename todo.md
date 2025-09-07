@@ -168,3 +168,11 @@ Only items that cause a change when selected need to be coded.
 ### BUGS
 - [ ] The [chain] command did not catch that it was lacking an [intro] option command. It should have thrown an error at compile time.
 - [ ] Problem with adding option commands to structured macros: If an incorrect option command is added, the compiler does not know that it is incorrect, as it could be another command within the option body.  One possible solution (messy) is to insert 'option' into each option macro, like [option prop weathered rooftops]
+
+
+
+CLAUDE
+
+There is a missing feature in the Parser class for compiling Npc entities.  The Npc source lexes propery (I think), but there appears to be no complimentary code in the Parser.  For background, the Npc definition will work much like the Scenerylink definition, except where the Scenerylink is delimited with '^...^', the Npc is delimited with '~....~'.
+
+Please review the code and create a markdown report named "NpcParserFixes.md".  Append that with a full technical design proposing how this feature can be fixed/added.  Think hard.
