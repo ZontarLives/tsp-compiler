@@ -795,9 +795,6 @@ export class Verification {
                 return commandBody;
             }
 
-            // // Set up an array to hold the indexes of the elements to be spliced
-            // const spliceIndexes: number[] = [];
-            
             // Iterate the elements of the Command or Entity's body
             commandBody.forEach((element: Command, index: number) => {
                 // Ensure the element is not a string or undefined
@@ -850,13 +847,6 @@ export class Verification {
                     // TODO: If the element's body is an empty string, we should remove it from the array
                 }
             });
-            
-            // // Splice commandBody at the indexes in spliceIndexes.  Must reverse iterate so as not to mess up the
-            // // indexing.
-            // for (let i = spliceIndexes.length - 1; i >= 0; i--) {
-            //     const index = spliceIndexes[i];
-            //     commandBody.splice(index, 1);
-            // }
         }
         return commandBody;   
     }

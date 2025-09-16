@@ -31,6 +31,8 @@ export class Parser {
     public currentEntityDef: CommandData = {type: cmdType.entity, uid: generateUniqueId()};
     // List of scenery references `^book^` that are found in the current entity
     public currentSceneryReferences: Record<string, CommandData> = {};
+    // Entity references for determining item vs fixed link types
+    private entityReferences: Record<string, CommandData> = {};
 
     // Reference to an created instance of an associated Cursor class
     readonly cursor: Cursor;
@@ -47,6 +49,7 @@ export class Parser {
      * @returns Parsed structures
      */
     parse(references: Record<string, CommandData>): Record<string, Command> {
+        this.entityReferences = references;  // Store for entity type lookup
         let entities: Record<string, Command> = {};
         this.cursor.reinit();
 
@@ -649,6 +652,19 @@ export class Parser {
     }
 
     private parseItem(parentEntity: CommandData): Command {
+        // Peek ahead to get the entity ID without consuming tokens
+        const nextToken = this.cursor.lookAhead(1);
+
+        if (nextToken.type === TokenType.KEYWORD) {
+            const referencedEntity = this.entityReferences[nextToken.value];
+
+            // If it's a fixed entity, delegate to parseFixed
+            if (referencedEntity?.type === EntityTypes.fixed) {
+                return this.parseFixed(parentEntity);
+            }
+        }
+
+        // Otherwise, continue with normal item parsing
         let item: CommandData = {
             type: cmdType.itemlink,
             uid: generateUniqueId(),
@@ -661,10 +677,26 @@ export class Parser {
         item.id = this.cursor.consume("item id", TokenType.KEYWORD).value;
         item.inlineText = this.consumeInline();
         this.cursor.match("item close", TokenType.ITEM_CLOSE);
-        const result = Command.construct(item, parentEntity,this);
+        const result = Command.construct(item, parentEntity, this);
         return result;
     }
 
+    private parseFixed(parentEntity: CommandData): Command {
+        let item: CommandData = {
+            type: cmdType.fixedlink,
+            uid: generateUniqueId(),
+            tag: cmdType.fixedlink,
+            line: this.cursor.line(),
+            file: this.filename,
+            parentEntity: parentEntity
+        };
+        this.cursor.match("fixed open", TokenType.ITEM_OPEN);
+        item.id = this.cursor.consume("fixed id", TokenType.KEYWORD).value;
+        item.inlineText = this.consumeInline();
+        this.cursor.match("fixed close", TokenType.ITEM_CLOSE);
+        const result = Command.construct(item, parentEntity,this);
+        return result;
+    }
     /**
      * Parses NPC references in the form ~NpcName~
      * Similar to itemlink, references standalone NPC entities.

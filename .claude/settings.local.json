@@ -28,7 +28,9 @@
       "Bash(timeout:*)",
       "Bash(touch:*)",
       "Bash(tree:*)",
-      "Bash(npx jest:*)"
+      "Bash(npx jest:*)",
+      "Read(//mnt/e/Dev/**)",
+      "Bash(npm run tswatch:*)"
     ],
     "deny": []
   },

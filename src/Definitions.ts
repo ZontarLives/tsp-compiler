@@ -23,6 +23,7 @@ export enum cmdType {
     entityRef   = 'entityRef',   // A reference to an entity in body text. Selecting brings up info about the entity
     hotlink     = 'hotlink',     // Selecting executes related code
     itemlink    = 'itemlink',    // Selecting executes related code
+    fixedlink   = 'fixedlink',   // Selecting executes related code
     npclink     = 'npclink',     // Selecting executes NPC interaction code
     location    = 'location',    // Like definition, but can only exist at the root of the data tree
     macro       = 'macro',       // Execution of handler, no preserved state
@@ -242,6 +243,12 @@ export const definitions: Record<string, CommandDefinition> = {
         inlineText: state.optional,
         flow: flow.inline,
     },
+    fixedlink: {
+        type: cmdType.fixedlink,
+        id: state.required,
+        inlineText: state.optional,
+        flow: flow.inline,
+    },
     npclink: {
         type: cmdType.npclink,
         id: state.required,
@@ -386,8 +393,7 @@ export const definitions: Record<string, CommandDefinition> = {
         type: cmdType.statement,
         id: state.required,
         cond: state.optional,
-        inlineText: state.optional,
-        body: state.required,
+        inlineText: state.required,
     },
     topics: {
         type: cmdType.statement,
