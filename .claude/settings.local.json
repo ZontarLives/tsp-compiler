@@ -30,7 +30,8 @@
       "Bash(tree:*)",
       "Bash(npx jest:*)",
       "Read(//mnt/e/Dev/**)",
-      "Bash(npm run tswatch:*)"
+      "Bash(npm run tswatch:*)",
+      "Bash(python3:*)"
     ],
     "deny": []
   },
