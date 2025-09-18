@@ -1,5 +1,5 @@
 // main.ts
-import {Processor} from './Processor';
+import {Processor, ProcessorConfig} from './Processor';
 import {cpyw, intro, out, vsn} from "./Logger";
 import {buildDefinitionOptions} from "./Definitions";
 import {TspError} from "./Errors";
@@ -24,10 +24,18 @@ async function execute() {
     intro(`*-------------------------*\n`);
     
     buildDefinitionOptions();
-    
-    const processor = new Processor();
+
+    // Check for --use-new-whitespace flag
+    const useNewWhitespace = args.includes('--use-new-whitespace');
+    const filteredArgs = args.filter(arg => arg !== '--use-new-whitespace');
+
+    const config: ProcessorConfig = {
+        useNewWhitespaceManagement: useNewWhitespace
+    };
+
+    const processor = new Processor(config);
     try {
-        await processor.processTsp(args);
+        await processor.processTsp(filteredArgs);
     } catch (err) {
         if (err instanceof TspError) {
             console.error(err);

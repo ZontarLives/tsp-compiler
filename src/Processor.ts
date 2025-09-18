@@ -12,12 +12,26 @@ import {Verification} from "./Verification";
 import {Command} from "./Command";
 import {Snippets} from "./Snippets";
 import {getCompilerOptions} from "ts-loader/dist/compilerSetup";
+import {WhitespaceManagement} from "./WhitespaceManagement";
 
-
+/**
+ * Configuration options for the TSP Processor
+ */
+export interface ProcessorConfig {
+    /** Use the new flow-based whitespace management system (default: false for backward compatibility) */
+    useNewWhitespaceManagement?: boolean;
+}
 
 export class Processor {
+    private config: ProcessorConfig;
 
-    
+    constructor(config: ProcessorConfig = {}) {
+        this.config = {
+            useNewWhitespaceManagement: false, // Default to old system for backward compatibility
+            ...config
+        };
+    }
+
     async processTsp(filesAndDirectories: string[]) {
 
         restartUniqueIdCounter();
@@ -174,7 +188,13 @@ export class Processor {
                 Verification.entityReferences = combineObjectsUnique(Verification.entityReferences, references);
                 const parserOutput = parser.parse(references);
                 Verification.reduceNewlinesOnAll(parserOutput);
-                Verification.reduceStructuralWhitespaceAll(parserOutput);
+
+                // Apply whitespace management based on configuration
+                if (this.config.useNewWhitespaceManagement) {
+                    WhitespaceManagement.manageWhitespace(parserOutput);
+                } else {
+                    Verification.reduceStructuralWhitespaceAll(parserOutput);
+                }
                 
                 // Log all errors in `errorList` and reset the list
                 if (errorList.length) {
