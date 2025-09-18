@@ -16,13 +16,23 @@ npm run tswatch
 ./startwatch.bat
 
 # Run the compiler (after building)
-node ./dist/tsp-compiler/src/main.js tspSrc tspOut
+node ./dist/main.js tspSrc tspOut
 # or
 ./run.bat
 
 # The compiler expects two arguments:
 # 1. Input directory containing .tsp files
 # 2. Output directory for generated .json files
+
+# Whitespace Management Options:
+# Default: Uses new flow-based whitespace management system
+node ./dist/main.js tspSrc tspOut
+
+# Force old whitespace system (deprecated):
+node ./dist/main.js tspSrc tspOut --use-old-whitespace
+
+# Explicitly use new system (optional, since it's now default):
+node ./dist/main.js tspSrc tspOut --use-new-whitespace
 ```
 
 ### Testing
@@ -60,12 +70,15 @@ npx tsc --watch
 
 5. **Definitions** (`src/Definitions.ts`): Contains language definitions, valid keywords, and entity types.
 
+6. **WhitespaceManagement** (`src/WhitespaceManagement.ts`): Flow-based whitespace management system that processes commands according to their flow properties (inline, block, structured, location, none).
+
 ### Data Flow
 
 1. TSP source files → Lexer → Token stream
 2. Token stream → Parser → AST
 3. AST → Verification → Validated AST
-4. Validated AST → JSON output files
+4. Validated AST → WhitespaceManagement → Clean AST
+5. Clean AST → JSON output files
 
 ### TSP Language Key Concepts
 

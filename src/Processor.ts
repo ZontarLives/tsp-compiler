@@ -27,7 +27,7 @@ export class Processor {
 
     constructor(config: ProcessorConfig = {}) {
         this.config = {
-            useNewWhitespaceManagement: false, // Default to old system for backward compatibility
+            useNewWhitespaceManagement: true, // Default to new system (Phase 4)
             ...config
         };
     }

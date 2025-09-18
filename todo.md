@@ -244,3 +244,62 @@ Note that there is to be no whitespace after the final text output "There is als
 The `scenery` command is `flow.structured`, and so does not output any whitespace of its own.  The two <prop> options are of type `flow.block`, and are rendered that way when they are executed.  In the case of `scenery`, they are rendered in modals, so are never displayed to the location view.
 
 With this information I would like you to create a proposal as to how you would engineer this whitespace management.  Ask any questions you may need if there are logic or other types of gaps in my explanation of what I require.
+
+
+# Spacing Issue
+
+There is a formatting issue we need to address.  Here is an example of source code:
+```
+
+:: Stately Library -- location
+[once]
+Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.
+[/once]
+
+You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a ^large fireplace^ on the far wall, and a ^comfortable-looking chair^ in front of it.
+
+There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy {wooden door}. [if (wooden door is not open)]It is presently closed.<else>It is presently open and leads to [[Study `the study`]].[/if]
+
+A ~venerable sage~ is over there sitting in the corner of the room, reading a book.
+
+An [[Foyer `arched doorway`]] leads to the foyer.  There is a [link `big presentation link here`][present]LINK![/present][/link]. There is also a [link `link that will rerender the location`][look][/link]
+
+[scenery]
+	<prop large fireplace>
+		You see a large fireplace.  It is currently unlit.
+	<prop comfortable-looking chair>  //Note: hyphens in scenery names work, but are incorrectly displayed as errors.
+		You see a comfortable-looking chair.  It beckons you.
+[/scenery]
+
+
+```
+
+The expected output from this is (if the wooden door is closed):
+```
+Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.
+
+You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a large fireplace on the far wall, and a comfortable-looking chair in front of it.
+
+There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy wooden door. It is presently closed.
+
+A venerable sage is over there sitting in the corner of the room, reading a book.
+
+An arched doorway leads to the foyer.  There is a big presentation link here. There is also a link that will rerender the location
+
+```
+
+However, this is what I actually get:
+
+```
+Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.
+
+You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a large fireplace on the far wall, and a comfortable-looking chair in front of it.
+
+There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy wooden door. It is presently closed.
+
+A venerable sage is over there sitting in the corner of the room, reading a book.An arched doorway leads to the foyer.  There is a big presentation link here. There is also a link that will rerender the location
+```
+
+Step through the Parser to see what might be causeing the removal of whitespace formatting after "...reading a book." and before "An arched doorway..."
+
+Here is the Lexer output, in case that provides any clues: E:\Dev\TaleSpinner 2024\tsp-interpreter-V2\shared\tspOut\Startup.tso.json

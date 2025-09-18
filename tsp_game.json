@@ -1,55 +1,47 @@
 {
    "entities": {
-      "test location": {
+      "test room": {
          "type": "location",
          "uid": "00001",
          "tag": "location",
-         "id": "test location",
-         "displayName": "Test Location",
+         "id": "test room",
+         "displayName": "Test Room",
          "states": {
             "visited": false,
             "entries": 0
          },
          "body": [
             {
-               "type": "macro",
-               "uid": "00001.00003",
-               "tag": "once",
-               "cmdState": {
-                  "count": 0
-               },
-               "body": [
-                  {
-                     "type": "text",
-                     "uid": "00004",
-                     "tag": "newline",
-                     "body": "\n"
-                  },
-                  {
-                     "type": "text",
-                     "uid": "00005",
-                     "tag": "text",
-                     "body": "Welcome to the test location.\n"
-                  }
-               ]
+               "type": "text",
+               "uid": "00004",
+               "tag": "text",
+               "body": "Welcome to the test room."
             },
             {
                "type": "text",
-               "uid": "00006",
-               "tag": "newline",
-               "body": "\n\n"
-            },
+               "uid": "00005",
+               "tag": "text",
+               "body": "You can see various items here."
+            }
+         ]
+      },
+      "test item": {
+         "type": "item",
+         "uid": "00002",
+         "tag": "item",
+         "id": "test item",
+         "displayName": "Test Item",
+         "states": {
+            "handled": false,
+            "encountered": false,
+            "position": ""
+         },
+         "body": [
             {
                "type": "text",
                "uid": "00007",
                "tag": "text",
-               "body": "You are in a simple test room."
-            },
-            {
-               "type": "text",
-               "uid": "00008",
-               "tag": "text",
-               "body": "There is some text here."
+               "body": "A simple test item."
             }
          ]
       }

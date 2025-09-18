@@ -25,12 +25,28 @@ async function execute() {
     
     buildDefinitionOptions();
 
-    // Check for --use-new-whitespace flag
+    // Check for whitespace management flags
     const useNewWhitespace = args.includes('--use-new-whitespace');
-    const filteredArgs = args.filter(arg => arg !== '--use-new-whitespace');
+    const useOldWhitespace = args.includes('--use-old-whitespace');
+    const filteredArgs = args.filter(arg =>
+        arg !== '--use-new-whitespace' && arg !== '--use-old-whitespace'
+    );
+
+    // Default to new system unless explicitly told to use old system
+    let useNewWhitespaceManagement = true;
+    if (useOldWhitespace) {
+        useNewWhitespaceManagement = false;
+        console.warn('⚠️  DEPRECATION WARNING: --use-old-whitespace flag is deprecated.');
+        console.warn('   The old whitespace management system will be removed in a future version.');
+        console.warn('   Please migrate to the new flow-based whitespace management system.');
+        console.warn('   See WhitespaceManagementPlan.md for migration guidance.\n');
+    } else if (useNewWhitespace) {
+        useNewWhitespaceManagement = true;
+        console.log('ℹ️  Using new flow-based whitespace management system (now default).');
+    }
 
     const config: ProcessorConfig = {
-        useNewWhitespaceManagement: useNewWhitespace
+        useNewWhitespaceManagement: useNewWhitespaceManagement
     };
 
     const processor = new Processor(config);

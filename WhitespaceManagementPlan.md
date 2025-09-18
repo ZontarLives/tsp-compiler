@@ -504,10 +504,38 @@ node dist/main.js myProject/src myProject/out-new --use-new-whitespace
 4. **Predictable**: Clear rules for each flow type (inline, block, structured, location, none)
 5. **Recursive**: Properly handles deeply nested command structures
 
-### Phase 4: Cleanup
-1. After validation period, make new function default
-2. Eventually remove old function
-3. Update all documentation
+### Phase 4: Cleanup ✅ COMPLETED
+
+**Implementation Status: COMPLETE**
+
+1. ✅ **Made new function default**: `useNewWhitespaceManagement: true` in ProcessorConfig
+2. ✅ **Added deprecation warnings**: Console warnings when `--use-old-whitespace` is used
+3. ✅ **Updated all documentation**: CLAUDE.md, MIGRATION_GUIDE.md, and this plan
+4. ✅ **Added JSDoc deprecation**: Marked `reduceStructuralWhitespaceAll()` as deprecated
+5. ✅ **Created migration guide**: Comprehensive MIGRATION_GUIDE.md for users
+
+### Future Removal Plan (Phase 5)
+
+**Timeline for Old System Removal:**
+- **Current**: Old system available with deprecation warnings (v1.1+)
+- **Next Major Version (v2.0)**: Remove old system entirely
+- **Migration Period**: At least one major version with both systems
+
+**Removal Checklist for v2.0:**
+- [ ] Remove `--use-old-whitespace` flag from main.ts
+- [ ] Remove `reduceStructuralWhitespaceAll()` and related functions from Verification.ts
+- [ ] Remove `useNewWhitespaceManagement` config option (always true)
+- [ ] Simplify Processor.ts whitespace management call
+- [ ] Update all documentation to remove old system references
+- [ ] Update tests to remove old system test cases
+
+**Breaking Changes Notice for v2.0:**
+```
+BREAKING CHANGE: The old whitespace management system has been removed.
+The --use-old-whitespace flag is no longer supported.
+All whitespace processing now uses the flow-based system.
+See MIGRATION_GUIDE.md for details on the new system.
+```
 
 ## Example Output Validation
 

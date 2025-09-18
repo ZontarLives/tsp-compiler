@@ -856,6 +856,11 @@ export class Verification {
         this.reduceStructuralWhitespaceInBody(cmd, cmd.leadin, parentCmd);
     }
 
+    /**
+     * @deprecated This function is deprecated and will be removed in a future version.
+     * Use WhitespaceManagement.manageWhitespace() instead for flow-based whitespace management.
+     * See WhitespaceManagementPlan.md for migration guidance.
+     */
     static reduceStructuralWhitespaceAll(cmds: Record<string, Command>) {
         for (const cmd in cmds) {
             this.reduceStructuralWhitespaceRecursive(cmds[cmd], new Command(cmdType.reference,'root' ));
