@@ -464,7 +464,7 @@ export const definitions: Record<string, CommandDefinition> = {
             "count": 0,
         },
         inlineText: state.optional,
-        flow: flow.block,
+        flow: flow.inline,
     },
     exiting: {
         type: cmdType.macro,
@@ -528,7 +528,7 @@ export const definitions: Record<string, CommandDefinition> = {
         body: state.required,
         cond: state.optional,
         inlineText: state.optional,
-        flow: flow.block,
+        flow: flow.block,  // TODO: Should be .structured
         settings: {
             "hidelinks": false,
         },
@@ -619,7 +619,7 @@ export const definitions: Record<string, CommandDefinition> = {
         type: cmdType.macro,
         cond: state.required,
         body: state.required,
-        flow: flow.structured,
+        flow: flow.structured,  // TODO: Might need to be inline
         flowController: "true",
         shape: {
             leadin: true,   // leadin overrides `contentType` by allowing text
@@ -630,12 +630,14 @@ export const definitions: Record<string, CommandDefinition> = {
                     placement: optionSequence.repeatable,
                     cond: state.required,
                     presence: state.optional,
+                    // TODO: flow: flow.inline
                 },
                 else: {
                     type: cmdType.option,
                     body: state.required,
                     placement: optionSequence.last,
                     presence: state.optional,
+                    // TODO: flow: flow.inline
                 }
             },
         },

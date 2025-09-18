@@ -1,0 +1,97 @@
+{
+   "test sword": {
+      "type": "item",
+      "uid": "00001",
+      "tag": "item",
+      "id": "test sword",
+      "displayName": "Test Sword",
+      "states": {
+         "handled": false,
+         "encountered": false,
+         "position": ""
+      },
+      "body": [
+         {
+            "type": "text",
+            "uid": "00005",
+            "tag": "text",
+            "body": "A gleaming steel blade."
+         }
+      ]
+   },
+   "test door": {
+      "type": "fixed",
+      "uid": "00002",
+      "tag": "fixed",
+      "id": "test door",
+      "displayName": "Test Door",
+      "states": {
+         "encountered": false
+      },
+      "body": [
+         {
+            "type": "text",
+            "uid": "00007",
+            "tag": "text",
+            "body": "A heavy wooden door with iron hinges."
+         }
+      ]
+   },
+   "test room": {
+      "type": "location",
+      "uid": "00003",
+      "tag": "location",
+      "id": "test room",
+      "displayName": "Test Room",
+      "states": {
+         "visited": false,
+         "entries": 0
+      },
+      "body": [
+         {
+            "type": "text",
+            "uid": "00009",
+            "tag": "text",
+            "body": "You are in a test room."
+         },
+         {
+            "type": "text",
+            "uid": "00010",
+            "tag": "text",
+            "body": "You see a "
+         },
+         {
+            "type": "itemlink",
+            "uid": "00011",
+            "tag": "itemlink",
+            "id": "test sword",
+            "inlineText": ""
+         },
+         {
+            "type": "text",
+            "uid": "00012",
+            "tag": "text",
+            "body": " on the table."
+         },
+         {
+            "type": "text",
+            "uid": "00013",
+            "tag": "text",
+            "body": "There is a "
+         },
+         {
+            "type": "fixedlink",
+            "uid": "00014",
+            "tag": "fixedlink",
+            "id": "test door",
+            "inlineText": ""
+         },
+         {
+            "type": "text",
+            "uid": "00015",
+            "tag": "text",
+            "body": " to the north."
+         }
+      ]
+   }
+}

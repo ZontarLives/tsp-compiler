@@ -53,3 +53,8 @@ Thumbs.db
 .dev/
 /tspSrc/
 /mockOut/
+/tspOut/CommandDefinitionKeys.json
+/tspOut/CommandDefinitionRegex.txt
+/tspOut/OptionDefinitionKeys.json
+/tspOut/OptionDefinitionRegex.txt
+/tspOut/RegexRelationalOperators.txt

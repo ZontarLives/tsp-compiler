@@ -1,0 +1,194 @@
+[
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 0,
+      "line": 1
+   },
+   {
+      "type": "PHRASE",
+      "value": "Test Sword",
+      "pos": 3,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 14,
+      "line": 1
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 16,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 20,
+      "line": 1
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 20,
+      "line": 1
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A gleaming steel blade.",
+      "pos": 21,
+      "line": 2
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 46,
+      "line": 4
+   },
+   {
+      "type": "PHRASE",
+      "value": "Test Door",
+      "pos": 49,
+      "line": 4
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 59,
+      "line": 4
+   },
+   {
+      "type": "WORD",
+      "value": "fixed",
+      "pos": 61,
+      "line": 4
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 66,
+      "line": 4
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 66,
+      "line": 4
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A heavy wooden door with iron hinges.",
+      "pos": 67,
+      "line": 5
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 106,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "Test Room",
+      "pos": 109,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 119,
+      "line": 7
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 121,
+      "line": 7
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 129,
+      "line": 7
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 129,
+      "line": 7
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are in a test room.",
+      "pos": 130,
+      "line": 8
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You see a ",
+      "pos": 154,
+      "line": 9
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 164,
+      "line": 9
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Test Sword",
+      "pos": 165,
+      "line": 9
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 175,
+      "line": 9
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " on the table.",
+      "pos": 176,
+      "line": 9
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "There is a ",
+      "pos": 191,
+      "line": 10
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 202,
+      "line": 10
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Test Door",
+      "pos": 203,
+      "line": 10
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 212,
+      "line": 10
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " to the north.",
+      "pos": 213,
+      "line": 10
+   },
+   {
+      "type": "EOF",
+      "value": "",
+      "pos": 228,
+      "line": 11
+   }
+]

@@ -173,6 +173,74 @@ Only items that cause a change when selected need to be coded.
 
 CLAUDE
 
-There is a missing feature in the Parser class for compiling Npc entities.  The Npc source lexes propery (I think), but there appears to be no complimentary code in the Parser.  For background, the Npc definition will work much like the Scenerylink definition, except where the Scenerylink is delimited with '^...^', the Npc is delimited with '~....~'.
+- [X] There is a missing feature in the Parser class for compiling Npc entities.  The Npc source lexes propery (I think), but there appears to be no complimentary code in the Parser.  For background, the Npc definition will work much like the Scenerylink definition, except where the Scenerylink is delimited with '^...^', the Npc is delimited with '~....~'.
 
-Please review the code and create a markdown report named "NpcParserFixes.md".  Append that with a full technical design proposing how this feature can be fixed/added.  Think hard.
+  Please review the code and create a markdown report named "NpcParserFixes.md".  Append that with a full technical design proposing how this feature can be fixed/added.  Think hard.
+
+#Whitespace
+
+In E:\Dev\TaleSpinner 2024\tsp-compiler\src\Verification.ts, line 859, there is a function named `static reduceStructuralWhitespaceAll()`.  This functions goal is to reduce unneeded whitespace from inside commands of `type: macro` and `flow: flow.structured`.  This was intended to make the text output from an Entity only include text and newlines that are intended to be output to the view.
+
+The problem with the current method is that it is very special-case oriented and easy to break.  I want to replace this method with a new one named `manageWhitespace()`.  We will keep `reduceStructuralWhitespaceAll()` for backwards compatability, in case its needed, but that is doubtful.
+
+The new `manageWhitespace()` function will properly observe a macro's `flow` property and manage its whitespace output based on that.  Take note that this will need to be a recursive system, as a macro's `flow` property may be different than that of its children.
+
+For the purposes of this discussion, the term "whitespace" includes all spaces, tabs, newlines and other characters or entities that ouput spaces.
+
+Here are the rules:
+
+1. If a command type is `text`, it's body is nothing more than a string will always be rendered inline with surrounding text.
+2. If a command has `flow: flow.inline`, then any output from its own (not childrens') body will keep all encountered whitespace.
+3. If a command has `flow: flow.block`, then it is intended to be rendered as a separate block, or paragraph, of text.  It will preceed the body text with two newlines and terminate it with two newlines.  Any leading or ending whitespace in the body will be disregarded.
+4. If a command has `flow: flow.structured`, then there will be no whitespace or even text output from its own body.  There may be child commands that output text, but they will be managed by their own `flow` properties.
+5. If a command has `flow: flow.location`, this is a special case, where the Entity is a location that generates output intended to be displayed on the main view of the interpreter application, which is out of scope here.  This flow type trims any whitespace from before and after the initial render of the location.
+
+The place where we manage this whitespace has been at the Verification time, after the Lexer has completed its operation on the entity.  Perform some research to determine whether or not there is a better way to manage this.
+
+Read the E:\Dev\TaleSpinner 2024\tsp-compiler\src\Definitions.ts file.  With that information we will move on to examples.
+
+Here is an example of source code:
+```
+
+:: Stately Library -- location
+[once]
+Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.
+[/once]
+
+You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a ^large fireplace^ on the far wall, and a ^comfortable-looking chair^ in front of it.
+
+There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy {wooden door}. [if (wooden door is not open)]It is presently closed.<else>It is presently open and leads to [[Study `the study`]].[/if]
+
+A ~venerable sage~ is over there sitting in the corner of the room, reading a book.
+
+An [[Foyer `arched doorway`]] leads to the foyer.  There is a [link `big presentation link here`][present]LINK![/present][/link]. There is also a [link `link that will rerender the location`][look][/link]
+
+[scenery]
+	<prop large fireplace>
+		You see a large fireplace.  It is currently unlit.
+	<prop comfortable-looking chair>  //Note: hyphens in scenery names work, but are incorrectly displayed as errors.
+		You see a comfortable-looking chair.  It beckons you.
+[/scenery]
+
+
+```
+
+The expected output from this is (if the wooden door is closed):
+```
+Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.
+
+You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a large fireplace on the far wall, and a comfortable-looking chair in front of it.
+
+There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy wooden door. It is presently closed.
+
+A venerable sage is over there sitting in the corner of the room, reading a book.
+
+An arched doorway leads to the foyer.  There is a big presentation link here. There is also a link that will rerender the location
+
+```
+
+Note that there is to be no whitespace after the final text output "There is also a link that will rerender the location", as the `flow: flow.location` setting trims all white space at the end of the initial render.
+
+The `scenery` command is `flow.structured`, and so does not output any whitespace of its own.  The two <prop> options are of type `flow.block`, and are rendered that way when they are executed.  In the case of `scenery`, they are rendered in modals, so are never displayed to the location view.
+
+With this information I would like you to create a proposal as to how you would engineer this whitespace management.  Ask any questions you may need if there are logic or other types of gaps in my explanation of what I require.
