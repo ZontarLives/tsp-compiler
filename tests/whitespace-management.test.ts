@@ -363,4 +363,99 @@ You are in a stately library...
             }
         });
     });
+
+    describe('Location Flow Paragraph Preservation', () => {
+        test('should preserve paragraph breaks within location content', () => {
+            const tspSource = `
+:: Test Location --location
+First paragraph text.
+
+Second paragraph after break.
+            `;
+
+            const result = parseAndProcess(tspSource);
+            const location = result['test location'];
+
+            expect(location).toBeDefined();
+
+            const bodyArray = Array.isArray(location.body) ? location.body : [];
+            const textContent = extractTextContent(bodyArray.filter(cmd => cmd.type === cmdType.text));
+
+            // Should preserve the paragraph break (double newline)
+            expect(textContent).toContain('text.\n\nSecond paragraph');
+        });
+
+        test('should handle text followed by links without losing paragraph breaks', () => {
+            const tspSource = `
+:: Sage --npc
+A wise old sage.
+
+:: Test Location --location
+A ~Sage~ is reading a book.
+
+The room has an arched doorway.
+            `;
+
+            const result = parseAndProcess(tspSource);
+            const location = result['test location'];
+
+            expect(location).toBeDefined();
+
+            const bodyArray = Array.isArray(location.body) ? location.body : [];
+
+            // Find text nodes and verify paragraph structure is preserved
+            const textNodes = bodyArray.filter(cmd => cmd.type === cmdType.text);
+            expect(textNodes.length).toBeGreaterThan(0);
+
+            // Check that we have a paragraph break text node between the content
+            // The structure should have a text node with "\n\n" between the two paragraphs
+            const hasParagraphBreakNode = textNodes.some(node => {
+                const text = node.body as string;
+                return text === '\n\n' || text.includes('\n\n');
+            });
+
+            expect(hasParagraphBreakNode).toBe(true);
+
+            // Also verify that the text ending with "book." exists
+            const hasBookText = textNodes.some(node => {
+                const text = node.body as string;
+                return text.includes('book.');
+            });
+
+            expect(hasBookText).toBe(true);
+
+            // And verify the doorway text exists
+            const hasDoorwayText = textNodes.some(node => {
+                const text = node.body as string;
+                return text.includes('arched doorway');
+            });
+
+            expect(hasDoorwayText).toBe(true);
+        });
+
+        test('should trim only spaces and tabs, not newlines at location end', () => {
+            const tspSource = `
+:: Test Location --location
+Location text with trailing spaces.
+            `;
+
+            const result = parseAndProcess(tspSource);
+            const location = result['test location'];
+
+            expect(location).toBeDefined();
+
+            const bodyArray = Array.isArray(location.body) ? location.body : [];
+            const lastTextNode = bodyArray
+                .filter(cmd => cmd.type === cmdType.text)
+                .pop();
+
+            if (lastTextNode) {
+                const text = lastTextNode.body as string;
+                // Should not end with spaces or tabs
+                expect(text).not.toMatch(/[ \t]+$/);
+                // But should preserve newlines if they're significant
+                expect(text).toMatch(/\./); // Should end with the period
+            }
+        });
+    });
 });

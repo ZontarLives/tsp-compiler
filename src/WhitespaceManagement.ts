@@ -269,23 +269,45 @@ export class WhitespaceManagement {
             return child;
         });
 
-        // Trim leading whitespace
-        if (processed.length > 0) {
-            const first = processed[0];
+        // Restore paragraph breaks between consecutive text elements
+        // The reduceNewlinesOnAll function may have removed important paragraph separators
+        const result: Command[] = [];
+        for (let i = 0; i < processed.length; i++) {
+            const current = processed[i];
+            result.push(current);
+
+            // Check if we need to add paragraph break between text elements
+            if (i < processed.length - 1) {
+                const next = processed[i + 1];
+                if (current instanceof Command && next instanceof Command &&
+                    current.type === cmdType.text && next.type === cmdType.text) {
+
+                    // Add paragraph break between consecutive text elements
+                    const paragraphBreak = this.createTextNode('\n\n');
+                    result.push(paragraphBreak);
+                }
+            }
+        }
+
+        // Trim leading whitespace from first meaningful element
+        if (result.length > 0) {
+            const first = result[0];
             if (first instanceof Command && first.type === cmdType.text) {
                 first.body = (first.body as string).replace(/^\s+/, '');
             }
         }
 
-        // Trim trailing whitespace
-        if (processed.length > 0) {
-            const last = processed[processed.length - 1];
+        // Trim trailing whitespace from last element (but preserve structure)
+        if (result.length > 0) {
+            const last = result[result.length - 1];
             if (last instanceof Command && last.type === cmdType.text) {
-                last.body = (last.body as string).replace(/\s+$/, '');
+                const text = last.body as string;
+                // Only trim spaces and tabs at the very end, preserve newlines for paragraph structure
+                last.body = text.replace(/[ \t]+$/, '');
             }
         }
 
-        return processed;
+        return result;
     }
 
     /**
