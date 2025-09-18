@@ -96,6 +96,7 @@
       "each",
       "entityRef",
       "exiting",
+      "fixedlink",
       "gate",
       "goto",
       "hide",
