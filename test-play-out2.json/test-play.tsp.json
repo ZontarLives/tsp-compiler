@@ -1,0 +1,91 @@
+{
+   "testsystem": {
+      "type": "system",
+      "uid": "00001",
+      "tag": "system",
+      "id": "testsystem",
+      "displayName": "TestSystem",
+      "body": [
+         {
+            "type": "macro",
+            "uid": "00001.00004",
+            "tag": "settings",
+            "body": [
+               {
+                  "type": "macro",
+                  "uid": "00001.00005",
+                  "tag": "start",
+                  "id": "testlocation"
+               },
+               {
+                  "type": "macro",
+                  "uid": "00001.00006",
+                  "tag": "tsp_version",
+                  "inlineText": "1.1.1"
+               },
+               {
+                  "type": "macro",
+                  "uid": "00001.00007",
+                  "tag": "title",
+                  "body": [
+                     {
+                        "type": "text",
+                        "uid": "00008",
+                        "tag": "text",
+                        "body": "Play Test\n"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "testlocation": {
+      "type": "location",
+      "uid": "00002",
+      "tag": "location",
+      "id": "testlocation",
+      "displayName": "TestLocation",
+      "states": {
+         "visited": false,
+         "entries": 0
+      },
+      "body": [
+         {
+            "type": "text",
+            "uid": "00011",
+            "tag": "text",
+            "body": "Test location.\n\n"
+         },
+         {
+            "type": "statement",
+            "uid": "00002.00012",
+            "tag": "play",
+            "id": "track1",
+            "settings": {
+               "loop": true,
+               "fade": 10,
+               "volume": 2
+            }
+         },
+         {
+            "type": "text",
+            "uid": "00013",
+            "tag": "newline",
+            "body": "\n\n"
+         },
+         {
+            "type": "text",
+            "uid": "00015",
+            "tag": "text",
+            "body": "\n\n"
+         },
+         {
+            "type": "text",
+            "uid": "00014",
+            "tag": "text",
+            "body": "End of test."
+         }
+      ]
+   }
+}

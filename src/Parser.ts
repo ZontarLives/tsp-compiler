@@ -812,6 +812,45 @@ export class Parser {
      * @param macro
      * @private
      */
+    /**
+     * Convert a setting value to its proper type based on the command definition
+     * @param macro The macro command
+     * @param settingKey The setting key
+     * @param settingValue The raw string value
+     * @returns The properly typed value
+     */
+    private convertSettingValue(macro: CommandData, settingKey: string, settingValue: any): any {
+        const def = getCommandDefinition(macro);
+
+        // If the definition has settings with defaults, use those to determine type
+        if (def.settings && def.settings.hasOwnProperty(settingKey)) {
+            const defaultValue = def.settings[settingKey];
+            const defaultType = typeof defaultValue;
+
+            // Convert based on the type of the default value
+            switch (defaultType) {
+                case 'boolean':
+                    if (typeof settingValue === 'boolean') return settingValue;
+                    return settingValue === 'true';
+                case 'number':
+                    if (typeof settingValue === 'number') return settingValue;
+                    const num = parseFloat(settingValue);
+                    return isNaN(num) ? settingValue : num;
+                default:
+                    return settingValue;
+            }
+        }
+
+        // Fallback: try to auto-detect type
+        if (settingValue === 'true' || settingValue === 'false') {
+            return settingValue === 'true';
+        } else if (!isNaN(Number(settingValue))) {
+            return Number(settingValue);
+        }
+
+        return settingValue;
+    }
+
     private parseMacroSettings(macro: CommandData): Record<string, any> {
         if (this.cursor.match("macro settings open", TokenType.MACRO_SETTING)) {
             let settings: Record<string, any> = {};
@@ -821,7 +860,8 @@ export class Parser {
                     this.cursor.match("setting assign op '='", TokenType.MACRO_SETTING_ASSIGN);
                     const settingValue = this.cursor.consumeOneOf("setting value of string, number or boolean", TokenType.NUMBER, TokenType.BOOLEAN, TokenType.PHRASE).value;
 
-                    settings[settingKey] = settingValue;
+                    // Convert the setting value to the appropriate type based on the definition
+                    settings[settingKey] = this.convertSettingValue(macro, settingKey, settingValue);
                 }
                 else {
                     // If user specifies a setting that is a boolean, default it to true, as he wouldn't mention it

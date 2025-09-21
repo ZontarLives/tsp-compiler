@@ -1,0 +1,338 @@
+[
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 0,
+      "line": 1
+   },
+   {
+      "type": "PHRASE",
+      "value": "TestSystem",
+      "pos": 3,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 14,
+      "line": 1
+   },
+   {
+      "type": "WORD",
+      "value": "system",
+      "pos": 16,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 22,
+      "line": 1
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 22,
+      "line": 1
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 23,
+      "line": 2
+   },
+   {
+      "type": "WORD",
+      "value": "settings",
+      "pos": 24,
+      "line": 2
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 32,
+      "line": 2
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 33,
+      "line": 2
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 34,
+      "line": 3
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 35,
+      "line": 3
+   },
+   {
+      "type": "WORD",
+      "value": "start",
+      "pos": 36,
+      "line": 3
+   },
+   {
+      "type": "PHRASE",
+      "value": "TestLocation",
+      "pos": 42,
+      "line": 3
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 55,
+      "line": 3
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 58,
+      "line": 4
+   },
+   {
+      "type": "WORD",
+      "value": "tsp_version",
+      "pos": 59,
+      "line": 4
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 71,
+      "line": 4
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "1.1.1",
+      "pos": 72,
+      "line": 4
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 77,
+      "line": 4
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 78,
+      "line": 4
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 81,
+      "line": 5
+   },
+   {
+      "type": "WORD",
+      "value": "title",
+      "pos": 82,
+      "line": 5
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 87,
+      "line": 5
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Play Test\n",
+      "pos": 89,
+      "line": 5
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 99,
+      "line": 6
+   },
+   {
+      "type": "WORD",
+      "value": "settings",
+      "pos": 101,
+      "line": 6
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 109,
+      "line": 6
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 110,
+      "line": 6
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 112,
+      "line": 8
+   },
+   {
+      "type": "PHRASE",
+      "value": "TestLocation",
+      "pos": 115,
+      "line": 8
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 128,
+      "line": 8
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 131,
+      "line": 8
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 139,
+      "line": 8
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 139,
+      "line": 8
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Test location.\n\n",
+      "pos": 140,
+      "line": 9
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 156,
+      "line": 11
+   },
+   {
+      "type": "WORD",
+      "value": "play",
+      "pos": 157,
+      "line": 11
+   },
+   {
+      "type": "PHRASE",
+      "value": "track1",
+      "pos": 162,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING",
+      "value": ":",
+      "pos": 169,
+      "line": 11
+   },
+   {
+      "type": "PHRASE",
+      "value": "loop",
+      "pos": 170,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 174,
+      "line": 11
+   },
+   {
+      "type": "BOOLEAN",
+      "value": "true",
+      "pos": 175,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_DELIM",
+      "value": ",",
+      "pos": 179,
+      "line": 11
+   },
+   {
+      "type": "PHRASE",
+      "value": "fade",
+      "pos": 180,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 184,
+      "line": 11
+   },
+   {
+      "type": "NUMBER",
+      "value": "10",
+      "pos": 185,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_DELIM",
+      "value": ",",
+      "pos": 187,
+      "line": 11
+   },
+   {
+      "type": "PHRASE",
+      "value": "volume",
+      "pos": 188,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 194,
+      "line": 11
+   },
+   {
+      "type": "NUMBER",
+      "value": "2",
+      "pos": 195,
+      "line": 11
+   },
+   {
+      "type": "MACRO_SETTING_END",
+      "value": "",
+      "pos": 196,
+      "line": 11
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 196,
+      "line": 11
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 197,
+      "line": 11
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "End of test.",
+      "pos": 199,
+      "line": 13
+   },
+   {
+      "type": "EOF",
+      "value": "",
+      "pos": 212,
+      "line": 14
+   }
+]

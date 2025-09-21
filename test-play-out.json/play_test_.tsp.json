@@ -64,9 +64,9 @@
                "tag": "play",
                "id": "track1",
                "settings": {
-                  "loop": true,
-                  "fade": 10,
-                  "volume": 2
+                  "loop": "true",
+                  "fade": "10",
+                  "volume": "2"
                }
             },
             {

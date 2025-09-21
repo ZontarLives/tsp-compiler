@@ -303,3 +303,27 @@ A venerable sage is over there sitting in the corner of the room, reading a book
 Step through the Parser to see what might be causeing the removal of whitespace formatting after "...reading a book." and before "An arched doorway..."
 
 Here is the Lexer output, in case that provides any clues: E:\Dev\TaleSpinner 2024\tsp-interpreter-V2\shared\tspOut\Startup.tso.json
+
+
+
+This compiler can convert source, such as what is in this file: `E:\Dev\TaleSpinner 2024\tsp-compiler\tspSrc\Startup.tsp` to an intermediary file: `E:\Dev\TaleSpinner 2024\tsp-interpreter-V2\shared\tspOut\Startup.tso.json`, finally outputting to a final game file: `E:\Dev\Tsp2025\tsp_dev\assets\tsp_game.json`.
+
+There is a standard means of defining a simple command like `play`:
+
+`[play track_name]`
+
+As with nearly all commands, conditions on execution can optionally be placed inside parenthesis in the command:
+
+`[play track_name (player is damaged)]`
+
+Both of the above examples compile correctly, with `track_name` generated in the `id` property and the conditions generated in the `cond` property.
+
+However, there is a third optional structure that handles `settings`.  It compiles correctly, but does not generate final output:
+
+`[play track_name :loop=true,fade=10,volume=2]`
+
+The above three optional settings in this example are defined in E:\Dev\TaleSpinner 2024\tsp-compiler\src\Definitions.ts on line 355.  Only settings defined in the 'play' command there can be used in that command, so we must check at validation time to ensure the command (`play` in this example) is only referencing those particular settings.  Other commands that need settings will define their own settings in the same way.
+
+Although the Lexer and Parser both accept the example above, there is no output to the `settings` property of the resulting game object.
+
+Perform a full review and investigation on this.  Make no assumptions and research everythings.  Determine why this is happening and propose a solution.

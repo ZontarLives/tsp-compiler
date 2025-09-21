@@ -352,38 +352,7 @@ export const definitions: Record<string, CommandDefinition> = {
     look: {
         type: cmdType.statement,
     },
-    play: {
-        type: cmdType.statement,  // .params is an implied optional, so it need not declare `state.optional`
-        id: state.required,
-        cond: state.optional,
-        // Initialize settings with default values.  They are ALL optional in the command line, so this is what 
-        // will be used if no params are provided.
-        settings: {
-            "loop": false,
-            "fade": 0,
-            "volume": 1,
-        },
-    },
-    resume: {
-        type: cmdType.statement,  // .params is an implied optional, so it need not declare `state.optional`
-        id: state.required,
-        cond: state.optional,
-        // Initialize settings with default values.  They are ALL optional in the command line, so this is what 
-        // will be used if no params are provided.
-        settings: {
-            "fade": 500,    // Microseconds to fade in or out
-        },
-    },
-    stop: {
-        type: cmdType.statement,  // .params is an implied optional, so it need not declare `state.optional`
-        id: state.required,
-        cond: state.optional,
-        // Initialize settings with default values.  They are ALL optional in the command line, so this is what 
-        // will be used if no params are provided.
-        settings: {
-            "fade": 500,    // Microseconds to fade in or out
-        },
-    },
+
     takeitem: {
         type: cmdType.statement,
         id: state.required,
@@ -820,6 +789,103 @@ export const definitions: Record<string, CommandDefinition> = {
                     presence: state.optional,
                 },
             },
+        },
+    },
+
+    ////////////////////////////////
+    /// Audio Commands
+    ////////////////////////////////
+
+    // Background Tracks
+    playmusic: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "volume": 0.7,
+            "fadeIn": 0,
+            "fadeOut": 0,
+        },
+    },
+    stopmusic: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "fadeOut": 0,
+        },
+    },
+    // Different from stopmusic because it preserves the play position of the track for use with 'resume'.
+    pausemusic: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "fadeOut": 0,
+        },
+    },
+    resumemusic: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "fadeIn": 0,
+        },
+    },
+
+    // Ambient tracks
+    playambient: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "volume": 0.7,
+            "minDelay": 0,
+            "maxDelay": 0,
+            "fadeIn": 0,
+            "fadeOut": 0,
+        },
+    },
+    stopambient: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "fadeOut": 0,
+        },
+    },
+
+    // Sound Effects
+    playsound: {
+        type: cmdType.statement,
+        id: state.required,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "volume": 0.7,
+        },
+    },
+
+    // Set channel volume
+    setvolume: {
+        type: cmdType.statement,
+        id: state.optional,
+        cond: state.optional,
+        settings: {
+            "volume": 0.7,
         },
     },
 };
