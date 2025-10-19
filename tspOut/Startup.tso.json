@@ -1,0 +1,5732 @@
+[
+   {
+      "type": "NEWLINES",
+      "value": "\n\n\n\n",
+      "pos": 0,
+      "line": 1
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 4,
+      "line": 5
+   },
+   {
+      "type": "PHRASE",
+      "value": "Startup",
+      "pos": 7,
+      "line": 5
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 15,
+      "line": 5
+   },
+   {
+      "type": "WORD",
+      "value": "system",
+      "pos": 17,
+      "line": 5
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 24,
+      "line": 5
+   },
+   {
+      "type": "PHRASE",
+      "value": "flags",
+      "pos": 25,
+      "line": 5
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 30,
+      "line": 5
+   },
+   {
+      "type": "PHRASE",
+      "value": "this",
+      "pos": 32,
+      "line": 5
+   },
+   {
+      "type": "ENTITY_STATE_DELIM",
+      "value": ",",
+      "pos": 36,
+      "line": 5
+   },
+   {
+      "type": "PHRASE",
+      "value": "that",
+      "pos": 38,
+      "line": 5
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 42,
+      "line": 5
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 44,
+      "line": 6
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 44,
+      "line": 6
+   },
+   {
+      "type": "WORD",
+      "value": "settings",
+      "pos": 45,
+      "line": 6
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 53,
+      "line": 6
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 54,
+      "line": 6
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 55,
+      "line": 7
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 56,
+      "line": 7
+   },
+   {
+      "type": "WORD",
+      "value": "start",
+      "pos": 57,
+      "line": 7
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 63,
+      "line": 7
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 79,
+      "line": 7
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 82,
+      "line": 8
+   },
+   {
+      "type": "WORD",
+      "value": "tsp_version",
+      "pos": 83,
+      "line": 8
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 95,
+      "line": 8
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "1.1.1",
+      "pos": 96,
+      "line": 8
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 101,
+      "line": 8
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 102,
+      "line": 8
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 106,
+      "line": 9
+   },
+   {
+      "type": "WORD",
+      "value": "app_version",
+      "pos": 107,
+      "line": 9
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 119,
+      "line": 9
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "1.0.0",
+      "pos": 120,
+      "line": 9
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 125,
+      "line": 9
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 126,
+      "line": 9
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 130,
+      "line": 10
+   },
+   {
+      "type": "WORD",
+      "value": "author",
+      "pos": 131,
+      "line": 10
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 138,
+      "line": 10
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Pete Gardner",
+      "pos": 139,
+      "line": 10
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 151,
+      "line": 10
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 152,
+      "line": 10
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 156,
+      "line": 11
+   },
+   {
+      "type": "WORD",
+      "value": "title",
+      "pos": 157,
+      "line": 11
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 162,
+      "line": 11
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Tsp Game Demo",
+      "pos": 164,
+      "line": 11
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 179,
+      "line": 12
+   },
+   {
+      "type": "WORD",
+      "value": "ifid",
+      "pos": 180,
+      "line": 12
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 185,
+      "line": 12
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "ABCDE12345",
+      "pos": 186,
+      "line": 12
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 196,
+      "line": 12
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 197,
+      "line": 12
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 201,
+      "line": 13
+   },
+   {
+      "type": "WORD",
+      "value": "subtitle",
+      "pos": 202,
+      "line": 13
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 210,
+      "line": 13
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A short, selection-based mystery game demo.",
+      "pos": 212,
+      "line": 13
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 257,
+      "line": 14
+   },
+   {
+      "type": "WORD",
+      "value": "summary",
+      "pos": 258,
+      "line": 14
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 265,
+      "line": 14
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "This is a short demo of the commands available in the TaleSpinner language.  It is a work in progress.",
+      "pos": 268,
+      "line": 14
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 372,
+      "line": 15
+   },
+   {
+      "type": "WORD",
+      "value": "copyright",
+      "pos": 373,
+      "line": 15
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 382,
+      "line": 15
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "(c) 2025 Pete Gardner\n",
+      "pos": 384,
+      "line": 15
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 406,
+      "line": 16
+   },
+   {
+      "type": "WORD",
+      "value": "settings",
+      "pos": 408,
+      "line": 16
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 416,
+      "line": 16
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 417,
+      "line": 16
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 419,
+      "line": 18
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 422,
+      "line": 18
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 438,
+      "line": 18
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 441,
+      "line": 18
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 449,
+      "line": 18
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 449,
+      "line": 18
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 450,
+      "line": 19
+   },
+   {
+      "type": "WORD",
+      "value": "once",
+      "pos": 451,
+      "line": 19
+   },
+   {
+      "type": "MACRO_SETTING",
+      "value": ":",
+      "pos": 456,
+      "line": 19
+   },
+   {
+      "type": "PHRASE",
+      "value": "flagtype",
+      "pos": 457,
+      "line": 19
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 465,
+      "line": 19
+   },
+   {
+      "type": "BOOLEAN",
+      "value": "on",
+      "pos": 466,
+      "line": 19
+   },
+   {
+      "type": "PHRASE",
+      "value": "ce",
+      "pos": 468,
+      "line": 19
+   },
+   {
+      "type": "MACRO_SETTING_DELIM",
+      "value": ",",
+      "pos": 470,
+      "line": 19
+   },
+   {
+      "type": "PHRASE",
+      "value": "id",
+      "pos": 472,
+      "line": 19
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 474,
+      "line": 19
+   },
+   {
+      "type": "PHRASE",
+      "value": "welcome",
+      "pos": 475,
+      "line": 19
+   },
+   {
+      "type": "MACRO_SETTING_END",
+      "value": "",
+      "pos": 482,
+      "line": 19
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 482,
+      "line": 19
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 483,
+      "line": 19
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Welcome to the Demo Adventure, where we test out many of TaleSpinner's features.  This is a short, selection-based mystery game demo.  It is a work in progress.\n",
+      "pos": 484,
+      "line": 20
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 645,
+      "line": 21
+   },
+   {
+      "type": "WORD",
+      "value": "once",
+      "pos": 647,
+      "line": 21
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 651,
+      "line": 21
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 652,
+      "line": 21
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are in a stately library.  It is a large room with a high ceiling and many bookshelves.  There is a ",
+      "pos": 654,
+      "line": 23
+   },
+   {
+      "type": "SCENERY_DELIMITER",
+      "value": "^",
+      "pos": 758,
+      "line": 23
+   },
+   {
+      "type": "KEYWORD",
+      "value": "large fireplace",
+      "pos": 759,
+      "line": 23
+   },
+   {
+      "type": "SCENERY_DELIMITER",
+      "value": "^",
+      "pos": 774,
+      "line": 23
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " on the far wall, and a ",
+      "pos": 775,
+      "line": 23
+   },
+   {
+      "type": "SCENERY_DELIMITER",
+      "value": "^",
+      "pos": 799,
+      "line": 23
+   },
+   {
+      "type": "KEYWORD",
+      "value": "comfortable-looking chair",
+      "pos": 800,
+      "line": 23
+   },
+   {
+      "type": "SCENERY_DELIMITER",
+      "value": "^",
+      "pos": 825,
+      "line": 23
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " in front of it.",
+      "pos": 826,
+      "line": 23
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "There is a picture window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a sturdy ",
+      "pos": 844,
+      "line": 25
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 993,
+      "line": 25
+   },
+   {
+      "type": "KEYWORD",
+      "value": "wooden door",
+      "pos": 994,
+      "line": 25
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 1005,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": ". ",
+      "pos": 1006,
+      "line": 25
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1008,
+      "line": 25
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 1009,
+      "line": 25
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 1012,
+      "line": 25
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 1013,
+      "line": 25
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 1025,
+      "line": 25
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 1032,
+      "line": 25
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 1036,
+      "line": 25
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1037,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is presently closed.",
+      "pos": 1038,
+      "line": 25
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 1061,
+      "line": 25
+   },
+   {
+      "type": "WORD",
+      "value": "else",
+      "pos": 1062,
+      "line": 25
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 1066,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is presently open and leads to ",
+      "pos": 1067,
+      "line": 25
+   },
+   {
+      "type": "HOTLINK_OPEN",
+      "value": "[[",
+      "pos": 1101,
+      "line": 25
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Study",
+      "pos": 1103,
+      "line": 25
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1109,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "the study",
+      "pos": 1110,
+      "line": 25
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1119,
+      "line": 25
+   },
+   {
+      "type": "HOTLINK_CLOSE",
+      "value": "]]",
+      "pos": 1120,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": ".",
+      "pos": 1122,
+      "line": 25
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1123,
+      "line": 25
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 1125,
+      "line": 25
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1127,
+      "line": 25
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 1128,
+      "line": 25
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A ",
+      "pos": 1130,
+      "line": 27
+   },
+   {
+      "type": "ENTITY_REF_DELIMITER",
+      "value": "~",
+      "pos": 1132,
+      "line": 27
+   },
+   {
+      "type": "KEYWORD",
+      "value": "venerable sage",
+      "pos": 1133,
+      "line": 27
+   },
+   {
+      "type": "ENTITY_REF_DELIMITER",
+      "value": "~",
+      "pos": 1147,
+      "line": 27
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " is over there sitting in the corner of the room, reading a book.",
+      "pos": 1148,
+      "line": 27
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "An ",
+      "pos": 1215,
+      "line": 29
+   },
+   {
+      "type": "HOTLINK_OPEN",
+      "value": "[[",
+      "pos": 1218,
+      "line": 29
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Foyer",
+      "pos": 1220,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1226,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "arched doorway",
+      "pos": 1227,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1241,
+      "line": 29
+   },
+   {
+      "type": "HOTLINK_CLOSE",
+      "value": "]]",
+      "pos": 1242,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " leads to the foyer.  There is a ",
+      "pos": 1244,
+      "line": 29
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1277,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 1278,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1283,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "big presentation link here",
+      "pos": 1284,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1310,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1311,
+      "line": 29
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1312,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 1313,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1320,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "LINK!",
+      "pos": 1321,
+      "line": 29
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1326,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 1328,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1335,
+      "line": 29
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1336,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 1338,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1342,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": ". There is also a ",
+      "pos": 1343,
+      "line": 29
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1361,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 1362,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1367,
+      "line": 29
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "link that will rerender the location",
+      "pos": 1368,
+      "line": 29
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1404,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1405,
+      "line": 29
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1406,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "look",
+      "pos": 1407,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1411,
+      "line": 29
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1412,
+      "line": 29
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 1414,
+      "line": 29
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1418,
+      "line": 29
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 1419,
+      "line": 29
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1421,
+      "line": 31
+   },
+   {
+      "type": "WORD",
+      "value": "visibleitems",
+      "pos": 1422,
+      "line": 31
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1434,
+      "line": 31
+   },
+   {
+      "type": "WHITESPACE",
+      "value": " ",
+      "pos": 1435,
+      "line": 31
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1436,
+      "line": 31
+   },
+   {
+      "type": "WORD",
+      "value": "inventory",
+      "pos": 1437,
+      "line": 31
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1447,
+      "line": 31
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are carrying",
+      "pos": 1448,
+      "line": 31
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 1464,
+      "line": 31
+   },
+   {
+      "type": "MACRO_SETTING",
+      "value": ":",
+      "pos": 1466,
+      "line": 31
+   },
+   {
+      "type": "PHRASE",
+      "value": "liststyle",
+      "pos": 1467,
+      "line": 31
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 1476,
+      "line": 31
+   },
+   {
+      "type": "PHRASE",
+      "value": "asyndectic",
+      "pos": 1477,
+      "line": 31
+   },
+   {
+      "type": "MACRO_SETTING_END",
+      "value": "",
+      "pos": 1487,
+      "line": 31
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1487,
+      "line": 31
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 1488,
+      "line": 31
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1490,
+      "line": 33
+   },
+   {
+      "type": "WORD",
+      "value": "scenery",
+      "pos": 1491,
+      "line": 33
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1498,
+      "line": 33
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 1499,
+      "line": 33
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 1500,
+      "line": 34
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 1501,
+      "line": 34
+   },
+   {
+      "type": "WORD",
+      "value": "prop",
+      "pos": 1502,
+      "line": 34
+   },
+   {
+      "type": "PHRASE",
+      "value": "large fireplace",
+      "pos": 1507,
+      "line": 34
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 1522,
+      "line": 34
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You see a large fireplace.  It is currently unlit.",
+      "pos": 1526,
+      "line": 35
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 1578,
+      "line": 36
+   },
+   {
+      "type": "WORD",
+      "value": "prop",
+      "pos": 1579,
+      "line": 36
+   },
+   {
+      "type": "PHRASE",
+      "value": "comfortable-looking chair",
+      "pos": 1584,
+      "line": 36
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 1609,
+      "line": 36
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You see a comfortable-looking chair.  It beckons you.\n",
+      "pos": 1615,
+      "line": 37
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1669,
+      "line": 38
+   },
+   {
+      "type": "WORD",
+      "value": "scenery",
+      "pos": 1671,
+      "line": 38
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1678,
+      "line": 38
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 1679,
+      "line": 38
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 1681,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 1683,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 1695,
+      "line": 40
+   },
+   {
+      "type": "WORD",
+      "value": "fixed",
+      "pos": 1698,
+      "line": 40
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 1704,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 1705,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 1713,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 1715,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 1731,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "flags",
+      "pos": 1733,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 1738,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 1740,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_STATE_ASSIGN",
+      "value": "=",
+      "pos": 1744,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "false",
+      "pos": 1745,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_STATE_DELIM",
+      "value": ",",
+      "pos": 1750,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "locked",
+      "pos": 1752,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_STATE_ASSIGN",
+      "value": "=",
+      "pos": 1758,
+      "line": 40
+   },
+   {
+      "type": "PHRASE",
+      "value": "true",
+      "pos": 1759,
+      "line": 40
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 1763,
+      "line": 40
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 1765,
+      "line": 41
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1765,
+      "line": 41
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 1766,
+      "line": 41
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1777,
+      "line": 41
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 1778,
+      "line": 41
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 1779,
+      "line": 42
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A sturdy wooden door, fixed firmly into the wall.  ",
+      "pos": 1780,
+      "line": 42
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 1831,
+      "line": 42
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 1832,
+      "line": 42
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 1835,
+      "line": 42
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 1836,
+      "line": 42
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 1848,
+      "line": 42
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 1855,
+      "line": 42
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 1859,
+      "line": 42
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1860,
+      "line": 42
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is presently closed.",
+      "pos": 1861,
+      "line": 42
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 1884,
+      "line": 42
+   },
+   {
+      "type": "WORD",
+      "value": "elseif",
+      "pos": 1885,
+      "line": 42
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 1892,
+      "line": 42
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 1893,
+      "line": 42
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 1905,
+      "line": 42
+   },
+   {
+      "type": "PHRASE",
+      "value": "locked",
+      "pos": 1908,
+      "line": 42
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 1914,
+      "line": 42
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 1915,
+      "line": 42
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is currently locked.",
+      "pos": 1916,
+      "line": 42
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 1939,
+      "line": 42
+   },
+   {
+      "type": "WORD",
+      "value": "else",
+      "pos": 1940,
+      "line": 42
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 1944,
+      "line": 42
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is currently unlocked and open.",
+      "pos": 1945,
+      "line": 42
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1979,
+      "line": 42
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 1981,
+      "line": 42
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1983,
+      "line": 42
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 1984,
+      "line": 42
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 1985,
+      "line": 43
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 1987,
+      "line": 43
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 1998,
+      "line": 43
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 1999,
+      "line": 43
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2001,
+      "line": 45
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 2002,
+      "line": 45
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2009,
+      "line": 45
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2010,
+      "line": 45
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 2011,
+      "line": 46
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 2012,
+      "line": 46
+   },
+   {
+      "type": "WORD",
+      "value": "action",
+      "pos": 2013,
+      "line": 46
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2020,
+      "line": 46
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Open it",
+      "pos": 2021,
+      "line": 46
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2028,
+      "line": 46
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 2030,
+      "line": 46
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2031,
+      "line": 46
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 2043,
+      "line": 46
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 2050,
+      "line": 46
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 2054,
+      "line": 46
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 2055,
+      "line": 46
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2059,
+      "line": 47
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 2060,
+      "line": 47
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 2063,
+      "line": 47
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2064,
+      "line": 47
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 2076,
+      "line": 47
+   },
+   {
+      "type": "PHRASE",
+      "value": "locked",
+      "pos": 2079,
+      "line": 47
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 2085,
+      "line": 47
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2086,
+      "line": 47
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2087,
+      "line": 47
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 2088,
+      "line": 48
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2091,
+      "line": 48
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2092,
+      "line": 48
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2099,
+      "line": 48
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2100,
+      "line": 48
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t\t",
+      "pos": 2101,
+      "line": 49
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The door is locked.  I need a key.\n\t\t\t",
+      "pos": 2105,
+      "line": 49
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2143,
+      "line": 50
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2145,
+      "line": 50
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2152,
+      "line": 50
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2153,
+      "line": 50
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 2154,
+      "line": 51
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 2156,
+      "line": 51
+   },
+   {
+      "type": "WORD",
+      "value": "elseif",
+      "pos": 2157,
+      "line": 51
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 2164,
+      "line": 51
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2165,
+      "line": 51
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 2177,
+      "line": 51
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 2184,
+      "line": 51
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 2188,
+      "line": 51
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 2189,
+      "line": 51
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2194,
+      "line": 52
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2195,
+      "line": 52
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2202,
+      "line": 52
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2203,
+      "line": 52
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t\t",
+      "pos": 2204,
+      "line": 53
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The door is now open.\n\t\t\t\t",
+      "pos": 2208,
+      "line": 53
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2234,
+      "line": 54
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 2235,
+      "line": 54
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2239,
+      "line": 54
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to",
+      "pos": 2251,
+      "line": 54
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 2254,
+      "line": 54
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2258,
+      "line": 54
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2259,
+      "line": 54
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 2260,
+      "line": 55
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2263,
+      "line": 55
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2265,
+      "line": 55
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2272,
+      "line": 55
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2273,
+      "line": 55
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 2274,
+      "line": 56
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 2276,
+      "line": 56
+   },
+   {
+      "type": "WORD",
+      "value": "else",
+      "pos": 2277,
+      "line": 56
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 2281,
+      "line": 56
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2286,
+      "line": 57
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2287,
+      "line": 57
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2294,
+      "line": 57
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2295,
+      "line": 57
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t\t",
+      "pos": 2296,
+      "line": 58
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The door is already open.\n\t\t\t",
+      "pos": 2300,
+      "line": 58
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2329,
+      "line": 59
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2331,
+      "line": 59
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2338,
+      "line": 59
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2339,
+      "line": 59
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 2340,
+      "line": 60
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2342,
+      "line": 60
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 2344,
+      "line": 60
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2346,
+      "line": 60
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2347,
+      "line": 60
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 2348,
+      "line": 61
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 2349,
+      "line": 61
+   },
+   {
+      "type": "WORD",
+      "value": "action",
+      "pos": 2350,
+      "line": 61
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2357,
+      "line": 61
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Unlock it",
+      "pos": 2358,
+      "line": 61
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2367,
+      "line": 61
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 2369,
+      "line": 61
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2370,
+      "line": 61
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 2382,
+      "line": 61
+   },
+   {
+      "type": "PHRASE",
+      "value": "locked",
+      "pos": 2385,
+      "line": 61
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 2391,
+      "line": 61
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 2392,
+      "line": 61
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2396,
+      "line": 62
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 2397,
+      "line": 62
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 2400,
+      "line": 62
+   },
+   {
+      "type": "PHRASE",
+      "value": "rusty key",
+      "pos": 2401,
+      "line": 62
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 2411,
+      "line": 62
+   },
+   {
+      "type": "PHRASE",
+      "value": "carried",
+      "pos": 2414,
+      "line": 62
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 2421,
+      "line": 62
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2422,
+      "line": 62
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2423,
+      "line": 62
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 2424,
+      "line": 63
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2427,
+      "line": 63
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2428,
+      "line": 63
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2435,
+      "line": 63
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2436,
+      "line": 63
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t\t",
+      "pos": 2437,
+      "line": 64
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You unlock the door with the rusty key.\n\t\t\t",
+      "pos": 2441,
+      "line": 64
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2484,
+      "line": 65
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2486,
+      "line": 65
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2493,
+      "line": 65
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2494,
+      "line": 65
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 2495,
+      "line": 66
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2498,
+      "line": 66
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 2499,
+      "line": 66
+   },
+   {
+      "type": "PHRASE",
+      "value": "wooden door",
+      "pos": 2503,
+      "line": 66
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to not",
+      "pos": 2515,
+      "line": 66
+   },
+   {
+      "type": "PHRASE",
+      "value": "locked",
+      "pos": 2522,
+      "line": 66
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2528,
+      "line": 66
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2529,
+      "line": 66
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 2530,
+      "line": 67
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 2532,
+      "line": 67
+   },
+   {
+      "type": "WORD",
+      "value": "else",
+      "pos": 2533,
+      "line": 67
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 2537,
+      "line": 67
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2542,
+      "line": 68
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2543,
+      "line": 68
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2550,
+      "line": 68
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2551,
+      "line": 68
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t\t",
+      "pos": 2552,
+      "line": 69
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "I need a key to unlock this door.\n\t\t\t",
+      "pos": 2556,
+      "line": 69
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2593,
+      "line": 70
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 2595,
+      "line": 70
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2602,
+      "line": 70
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2603,
+      "line": 70
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 2604,
+      "line": 71
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2606,
+      "line": 71
+   },
+   {
+      "type": "WORD",
+      "value": "if",
+      "pos": 2608,
+      "line": 71
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2610,
+      "line": 71
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2611,
+      "line": 71
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 2612,
+      "line": 72
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 2614,
+      "line": 72
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2621,
+      "line": 72
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n\n",
+      "pos": 2622,
+      "line": 72
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 2625,
+      "line": 75
+   },
+   {
+      "type": "PHRASE",
+      "value": "Foyer",
+      "pos": 2627,
+      "line": 75
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 2633,
+      "line": 75
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 2636,
+      "line": 75
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 2644,
+      "line": 75
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 2644,
+      "line": 75
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are in the foyer.  It is a small room with a high ceiling and a large chandelier.  There is a large staircase leading up to the second floor.  There is an ",
+      "pos": 2645,
+      "line": 76
+   },
+   {
+      "type": "HOTLINK_OPEN",
+      "value": "[[",
+      "pos": 2804,
+      "line": 76
+   },
+   {
+      "type": "KEYWORD",
+      "value": "stately library",
+      "pos": 2806,
+      "line": 76
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2822,
+      "line": 76
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "arched doorway",
+      "pos": 2823,
+      "line": 76
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2837,
+      "line": 76
+   },
+   {
+      "type": "HOTLINK_CLOSE",
+      "value": "]]",
+      "pos": 2838,
+      "line": 76
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " leading to the library, a ",
+      "pos": 2840,
+      "line": 76
+   },
+   {
+      "type": "HOTLINK_OPEN",
+      "value": "[[",
+      "pos": 2867,
+      "line": 76
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Study",
+      "pos": 2869,
+      "line": 76
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2875,
+      "line": 76
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "sturdy wooden doorway",
+      "pos": 2876,
+      "line": 76
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 2897,
+      "line": 76
+   },
+   {
+      "type": "HOTLINK_CLOSE",
+      "value": "]]",
+      "pos": 2898,
+      "line": 76
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " leading to the study, and a long corridor leading to the back of the house.\n\n",
+      "pos": 2900,
+      "line": 76
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2978,
+      "line": 78
+   },
+   {
+      "type": "WORD",
+      "value": "visibleitems",
+      "pos": 2979,
+      "line": 78
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 2991,
+      "line": 78
+   },
+   {
+      "type": "WHITESPACE",
+      "value": " ",
+      "pos": 2992,
+      "line": 78
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 2993,
+      "line": 78
+   },
+   {
+      "type": "WORD",
+      "value": "inventory",
+      "pos": 2994,
+      "line": 78
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3004,
+      "line": 78
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are carrying",
+      "pos": 3005,
+      "line": 78
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3021,
+      "line": 78
+   },
+   {
+      "type": "MACRO_SETTING",
+      "value": ":",
+      "pos": 3023,
+      "line": 78
+   },
+   {
+      "type": "PHRASE",
+      "value": "liststyle",
+      "pos": 3024,
+      "line": 78
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 3033,
+      "line": 78
+   },
+   {
+      "type": "PHRASE",
+      "value": "asyndectic",
+      "pos": 3034,
+      "line": 78
+   },
+   {
+      "type": "MACRO_SETTING_END",
+      "value": "",
+      "pos": 3044,
+      "line": 78
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3044,
+      "line": 78
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 3045,
+      "line": 78
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 3047,
+      "line": 80
+   },
+   {
+      "type": "WORD",
+      "value": "chain",
+      "pos": 3048,
+      "line": 80
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3053,
+      "line": 80
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 3054,
+      "line": 80
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 3055,
+      "line": 81
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 3056,
+      "line": 81
+   },
+   {
+      "type": "WORD",
+      "value": "clink",
+      "pos": 3057,
+      "line": 81
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 3062,
+      "line": 81
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You hear a clinking sound, like metal on metal.  It seems to be coming from the direction of the staircase.",
+      "pos": 3066,
+      "line": 82
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 3175,
+      "line": 83
+   },
+   {
+      "type": "WORD",
+      "value": "clink",
+      "pos": 3176,
+      "line": 83
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3182,
+      "line": 83
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It's getting louder",
+      "pos": 3183,
+      "line": 83
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3202,
+      "line": 83
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 3203,
+      "line": 83
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It's getting louder.  It sounds like something is being dragged up the stairs.",
+      "pos": 3207,
+      "line": 84
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 3287,
+      "line": 85
+   },
+   {
+      "type": "WORD",
+      "value": "clink",
+      "pos": 3288,
+      "line": 85
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3294,
+      "line": 85
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "What's that?",
+      "pos": 3295,
+      "line": 85
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3307,
+      "line": 85
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 3308,
+      "line": 85
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You see a shadow at the top of the stairs.  It looks like someone is dragging something heavy up the stairs.",
+      "pos": 3312,
+      "line": 86
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 3422,
+      "line": 87
+   },
+   {
+      "type": "WORD",
+      "value": "clink",
+      "pos": 3423,
+      "line": 87
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3429,
+      "line": 87
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Where did it go?",
+      "pos": 3430,
+      "line": 87
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3446,
+      "line": 87
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 3447,
+      "line": 87
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The shadow disappears, and the clinking sound stops.\n",
+      "pos": 3451,
+      "line": 88
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 3504,
+      "line": 89
+   },
+   {
+      "type": "WORD",
+      "value": "chain",
+      "pos": 3506,
+      "line": 89
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3511,
+      "line": 89
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 3512,
+      "line": 89
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 3514,
+      "line": 91
+   },
+   {
+      "type": "PHRASE",
+      "value": "Study",
+      "pos": 3516,
+      "line": 91
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 3522,
+      "line": 91
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 3525,
+      "line": 91
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 3533,
+      "line": 91
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 3533,
+      "line": 91
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are in an unused study.  It is a small room with a high ceiling and a large desk.  There is a large window on the wall to your left, letting in a soft light that illuminates the room.  On the wall to your right, there is a ",
+      "pos": 3534,
+      "line": 92
+   },
+   {
+      "type": "HOTLINK_OPEN",
+      "value": "[[",
+      "pos": 3761,
+      "line": 92
+   },
+   {
+      "type": "KEYWORD",
+      "value": "Foyer",
+      "pos": 3763,
+      "line": 92
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3769,
+      "line": 92
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "sturdy wooden doorway",
+      "pos": 3770,
+      "line": 92
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3791,
+      "line": 92
+   },
+   {
+      "type": "HOTLINK_CLOSE",
+      "value": "]]",
+      "pos": 3792,
+      "line": 92
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " leading to the foyer.",
+      "pos": 3794,
+      "line": 92
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "There's a shimmering mirror standing in the corner that you might be able to ",
+      "pos": 3818,
+      "line": 94
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 3895,
+      "line": 94
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 3896,
+      "line": 94
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3901,
+      "line": 94
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "walk through",
+      "pos": 3902,
+      "line": 94
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3914,
+      "line": 94
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3915,
+      "line": 94
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 3916,
+      "line": 94
+   },
+   {
+      "type": "WORD",
+      "value": "goto",
+      "pos": 3917,
+      "line": 94
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 3922,
+      "line": 94
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3937,
+      "line": 94
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 3938,
+      "line": 94
+   },
+   {
+      "type": "WORD",
+      "value": "link",
+      "pos": 3940,
+      "line": 94
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3944,
+      "line": 94
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": ".\n\n",
+      "pos": 3945,
+      "line": 94
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 3948,
+      "line": 96
+   },
+   {
+      "type": "WORD",
+      "value": "visibleitems",
+      "pos": 3949,
+      "line": 96
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 3961,
+      "line": 96
+   },
+   {
+      "type": "WHITESPACE",
+      "value": " ",
+      "pos": 3962,
+      "line": 96
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 3963,
+      "line": 96
+   },
+   {
+      "type": "WORD",
+      "value": "inventory",
+      "pos": 3964,
+      "line": 96
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3974,
+      "line": 96
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are carrying",
+      "pos": 3975,
+      "line": 96
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 3991,
+      "line": 96
+   },
+   {
+      "type": "MACRO_SETTING",
+      "value": ":",
+      "pos": 3993,
+      "line": 96
+   },
+   {
+      "type": "PHRASE",
+      "value": "liststyle",
+      "pos": 3994,
+      "line": 96
+   },
+   {
+      "type": "MACRO_SETTING_ASSIGN",
+      "value": "=",
+      "pos": 4003,
+      "line": 96
+   },
+   {
+      "type": "PHRASE",
+      "value": "asyndectic",
+      "pos": 4004,
+      "line": 96
+   },
+   {
+      "type": "MACRO_SETTING_END",
+      "value": "",
+      "pos": 4014,
+      "line": 96
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4014,
+      "line": 96
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 4015,
+      "line": 96
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4017,
+      "line": 98
+   },
+   {
+      "type": "WORD",
+      "value": "each",
+      "pos": 4018,
+      "line": 98
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4022,
+      "line": 98
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4023,
+      "line": 98
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 4024,
+      "line": 99
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 4025,
+      "line": 99
+   },
+   {
+      "type": "WORD",
+      "value": "step",
+      "pos": 4026,
+      "line": 99
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 4030,
+      "line": 99
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You have entered the Study for the very first time!",
+      "pos": 4034,
+      "line": 100
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 4087,
+      "line": 101
+   },
+   {
+      "type": "WORD",
+      "value": "step",
+      "pos": 4088,
+      "line": 101
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 4092,
+      "line": 101
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "This is your second time in the Study.",
+      "pos": 4096,
+      "line": 102
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 4136,
+      "line": 103
+   },
+   {
+      "type": "WORD",
+      "value": "step",
+      "pos": 4137,
+      "line": 103
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 4141,
+      "line": 103
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "This is your third time in the Study. No more updates after this.\n",
+      "pos": 4145,
+      "line": 104
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 4211,
+      "line": 105
+   },
+   {
+      "type": "WORD",
+      "value": "each",
+      "pos": 4213,
+      "line": 105
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4217,
+      "line": 105
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 4218,
+      "line": 105
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4220,
+      "line": 107
+   },
+   {
+      "type": "WORD",
+      "value": "exiting",
+      "pos": 4221,
+      "line": 107
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 4229,
+      "line": 107
+   },
+   {
+      "type": "PHRASE",
+      "value": "monacle",
+      "pos": 4230,
+      "line": 107
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 4238,
+      "line": 107
+   },
+   {
+      "type": "PHRASE",
+      "value": "carried",
+      "pos": 4241,
+      "line": 107
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 4248,
+      "line": 107
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4249,
+      "line": 107
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4250,
+      "line": 107
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 4251,
+      "line": 108
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "As you exit, the monacle glows briefly, and you feel a strange sensation.\n",
+      "pos": 4252,
+      "line": 108
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 4326,
+      "line": 109
+   },
+   {
+      "type": "WORD",
+      "value": "exiting",
+      "pos": 4328,
+      "line": 109
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4335,
+      "line": 109
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 4336,
+      "line": 109
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 4338,
+      "line": 111
+   },
+   {
+      "type": "PHRASE",
+      "value": "Mystery Room",
+      "pos": 4340,
+      "line": 111
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 4353,
+      "line": 111
+   },
+   {
+      "type": "WORD",
+      "value": "location",
+      "pos": 4356,
+      "line": 111
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 4364,
+      "line": 111
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4364,
+      "line": 111
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You are in a mysterious room.  It is a small room with a high ceiling and a large desk.  There is a large window on the wall to your left, letting in a soft light that illuminates the room.",
+      "pos": 4365,
+      "line": 112
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 4558,
+      "line": 116
+   },
+   {
+      "type": "PHRASE",
+      "value": "letter",
+      "pos": 4561,
+      "line": 116
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 4568,
+      "line": 116
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 4571,
+      "line": 116
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 4576,
+      "line": 116
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 4577,
+      "line": 116
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 4585,
+      "line": 116
+   },
+   {
+      "type": "PHRASE",
+      "value": "Player",
+      "pos": 4587,
+      "line": 116
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 4594,
+      "line": 116
+   },
+   {
+      "type": "PHRASE",
+      "value": "flags",
+      "pos": 4596,
+      "line": 116
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 4601,
+      "line": 116
+   },
+   {
+      "type": "PHRASE",
+      "value": "read",
+      "pos": 4603,
+      "line": 116
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 4607,
+      "line": 116
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 4609,
+      "line": 117
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4609,
+      "line": 117
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 4610,
+      "line": 117
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4621,
+      "line": 117
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4622,
+      "line": 117
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 4623,
+      "line": 118
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "An envelope with a ",
+      "pos": 4624,
+      "line": 118
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 4643,
+      "line": 118
+   },
+   {
+      "type": "KEYWORD",
+      "value": "letter",
+      "pos": 4644,
+      "line": 118
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 4650,
+      "line": 118
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " inside.  It is addressed to you.  What could it say?\n",
+      "pos": 4651,
+      "line": 118
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 4705,
+      "line": 119
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 4707,
+      "line": 119
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4718,
+      "line": 119
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 4719,
+      "line": 119
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4721,
+      "line": 121
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 4722,
+      "line": 121
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4729,
+      "line": 121
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4730,
+      "line": 121
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 4731,
+      "line": 122
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 4732,
+      "line": 122
+   },
+   {
+      "type": "WORD",
+      "value": "action",
+      "pos": 4733,
+      "line": 122
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 4740,
+      "line": 122
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Read letter",
+      "pos": 4741,
+      "line": 122
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 4752,
+      "line": 122
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 4754,
+      "line": 122
+   },
+   {
+      "type": "PHRASE",
+      "value": "Letter",
+      "pos": 4755,
+      "line": 122
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 4762,
+      "line": 122
+   },
+   {
+      "type": "PHRASE",
+      "value": "carried",
+      "pos": 4765,
+      "line": 122
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 4772,
+      "line": 122
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 4773,
+      "line": 122
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4777,
+      "line": 123
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 4778,
+      "line": 123
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 4786,
+      "line": 123
+   },
+   {
+      "type": "PHRASE",
+      "value": "letter",
+      "pos": 4787,
+      "line": 123
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 4794,
+      "line": 123
+   },
+   {
+      "type": "PHRASE",
+      "value": "read",
+      "pos": 4797,
+      "line": 123
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 4801,
+      "line": 123
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4802,
+      "line": 123
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4803,
+      "line": 123
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 4804,
+      "line": 124
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "James: Don't dilly-dally.",
+      "pos": 4807,
+      "line": 124
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Signed, M. ",
+      "pos": 4836,
+      "line": 125
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "P.S. Q says get on with it!\n\t\t",
+      "pos": 4852,
+      "line": 127
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 4882,
+      "line": 128
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 4884,
+      "line": 128
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4891,
+      "line": 128
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4892,
+      "line": 128
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 4893,
+      "line": 129
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 4895,
+      "line": 129
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 4896,
+      "line": 129
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 4904,
+      "line": 129
+   },
+   {
+      "type": "PHRASE",
+      "value": "letter",
+      "pos": 4905,
+      "line": 129
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 4912,
+      "line": 129
+   },
+   {
+      "type": "PHRASE",
+      "value": "read",
+      "pos": 4919,
+      "line": 129
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 4923,
+      "line": 129
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 4924,
+      "line": 129
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 4925,
+      "line": 129
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 4926,
+      "line": 130
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "James: We must get the plans back by tonight! We believe they're hidden within this Fun House. Signed, M. ",
+      "pos": 4929,
+      "line": 130
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "P.S. Q says enjoy the gum!\n\t\t\t",
+      "pos": 5040,
+      "line": 132
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5070,
+      "line": 133
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 5071,
+      "line": 133
+   },
+   {
+      "type": "PHRASE",
+      "value": "letter",
+      "pos": 5075,
+      "line": 133
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to",
+      "pos": 5082,
+      "line": 133
+   },
+   {
+      "type": "PHRASE",
+      "value": "read",
+      "pos": 5085,
+      "line": 133
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5089,
+      "line": 133
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5090,
+      "line": 133
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 5091,
+      "line": 134
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5093,
+      "line": 134
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 5095,
+      "line": 134
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5102,
+      "line": 134
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5103,
+      "line": 134
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5104,
+      "line": 135
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 5106,
+      "line": 135
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5113,
+      "line": 135
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 5114,
+      "line": 135
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 5116,
+      "line": 137
+   },
+   {
+      "type": "PHRASE",
+      "value": "rusty key",
+      "pos": 5119,
+      "line": 137
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 5129,
+      "line": 137
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 5132,
+      "line": 137
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 5137,
+      "line": 137
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 5138,
+      "line": 137
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 5146,
+      "line": 137
+   },
+   {
+      "type": "PHRASE",
+      "value": "Foyer",
+      "pos": 5148,
+      "line": 137
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 5153,
+      "line": 137
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 5155,
+      "line": 138
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5155,
+      "line": 138
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5156,
+      "line": 138
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5163,
+      "line": 138
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5164,
+      "line": 138
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5165,
+      "line": 139
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A ",
+      "pos": 5166,
+      "line": 139
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 5168,
+      "line": 139
+   },
+   {
+      "type": "KEYWORD",
+      "value": "rusty key",
+      "pos": 5169,
+      "line": 139
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 5178,
+      "line": 139
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " lies on the ground, discarded.\n",
+      "pos": 5179,
+      "line": 139
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5211,
+      "line": 140
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5213,
+      "line": 140
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5220,
+      "line": 140
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5221,
+      "line": 140
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5222,
+      "line": 141
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5223,
+      "line": 141
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5234,
+      "line": 141
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5235,
+      "line": 141
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5236,
+      "line": 142
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is a rusty key, probably for an old lock.  It looks like it has been here for a long time.\n",
+      "pos": 5237,
+      "line": 142
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5331,
+      "line": 143
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5333,
+      "line": 143
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5344,
+      "line": 143
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 5345,
+      "line": 143
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 5347,
+      "line": 145
+   },
+   {
+      "type": "PHRASE",
+      "value": "monacle",
+      "pos": 5350,
+      "line": 145
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 5358,
+      "line": 145
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 5361,
+      "line": 145
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 5366,
+      "line": 145
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 5367,
+      "line": 145
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 5375,
+      "line": 145
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 5377,
+      "line": 145
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 5392,
+      "line": 145
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 5394,
+      "line": 146
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5394,
+      "line": 146
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5395,
+      "line": 146
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5402,
+      "line": 146
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5403,
+      "line": 146
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5404,
+      "line": 147
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A ",
+      "pos": 5405,
+      "line": 147
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 5407,
+      "line": 147
+   },
+   {
+      "type": "KEYWORD",
+      "value": "monacle",
+      "pos": 5408,
+      "line": 147
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 5415,
+      "line": 147
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " lies on the ground, glinting.\n",
+      "pos": 5416,
+      "line": 147
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5447,
+      "line": 148
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5449,
+      "line": 148
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5456,
+      "line": 148
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5457,
+      "line": 148
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5458,
+      "line": 149
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5459,
+      "line": 149
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5470,
+      "line": 149
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5471,
+      "line": 149
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5472,
+      "line": 150
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is a monacle, a single eyeglass.  It is made of brass and has a leather strap.\n",
+      "pos": 5473,
+      "line": 150
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5555,
+      "line": 151
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5557,
+      "line": 151
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5568,
+      "line": 151
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 5569,
+      "line": 151
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 5571,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "umbrella",
+      "pos": 5574,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 5583,
+      "line": 153
+   },
+   {
+      "type": "WORD",
+      "value": "item",
+      "pos": 5586,
+      "line": 153
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 5591,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 5592,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 5600,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 5602,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 5617,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "flags",
+      "pos": 5618,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 5623,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 5625,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_STATE_DELIM",
+      "value": ",",
+      "pos": 5629,
+      "line": 153
+   },
+   {
+      "type": "PHRASE",
+      "value": "engaged",
+      "pos": 5631,
+      "line": 153
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 5638,
+      "line": 153
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 5640,
+      "line": 154
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5640,
+      "line": 154
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5641,
+      "line": 154
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5648,
+      "line": 154
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5649,
+      "line": 154
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5650,
+      "line": 155
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A large ",
+      "pos": 5651,
+      "line": 155
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 5659,
+      "line": 155
+   },
+   {
+      "type": "KEYWORD",
+      "value": "umbrella",
+      "pos": 5660,
+      "line": 155
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 5668,
+      "line": 155
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " lies in the corner, discarded.  Next to a ",
+      "pos": 5669,
+      "line": 155
+   },
+   {
+      "type": "ITEM_OPEN",
+      "value": "{",
+      "pos": 5712,
+      "line": 155
+   },
+   {
+      "type": "KEYWORD",
+      "value": "monacle",
+      "pos": 5713,
+      "line": 155
+   },
+   {
+      "type": "ITEM_CLOSE",
+      "value": "}",
+      "pos": 5720,
+      "line": 155
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": ".\n",
+      "pos": 5721,
+      "line": 155
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5723,
+      "line": 156
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 5725,
+      "line": 156
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5732,
+      "line": 156
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5733,
+      "line": 156
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5734,
+      "line": 157
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5735,
+      "line": 157
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5746,
+      "line": 157
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5747,
+      "line": 157
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5748,
+      "line": 158
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "It is a large umbrella, made of black fabric.  It has a wooden handle and a brass tip.  It is currently open, as if it had been used recently.\n",
+      "pos": 5749,
+      "line": 158
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 5892,
+      "line": 159
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 5894,
+      "line": 159
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5905,
+      "line": 159
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 5906,
+      "line": 159
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5908,
+      "line": 161
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 5909,
+      "line": 161
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5916,
+      "line": 161
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5917,
+      "line": 161
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 5918,
+      "line": 162
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 5919,
+      "line": 162
+   },
+   {
+      "type": "WORD",
+      "value": "action",
+      "pos": 5920,
+      "line": 162
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 5927,
+      "line": 162
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Close umbrella",
+      "pos": 5928,
+      "line": 162
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 5942,
+      "line": 162
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 5944,
+      "line": 162
+   },
+   {
+      "type": "PHRASE",
+      "value": "umbrella",
+      "pos": 5945,
+      "line": 162
+   },
+   {
+      "type": "RELOP",
+      "value": "is",
+      "pos": 5954,
+      "line": 162
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 5957,
+      "line": 162
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 5961,
+      "line": 162
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 5962,
+      "line": 162
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 5966,
+      "line": 163
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 5967,
+      "line": 163
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 5974,
+      "line": 163
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 5975,
+      "line": 163
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 5976,
+      "line": 164
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The umbrella is now closed.\n\t\t\t",
+      "pos": 5979,
+      "line": 164
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6010,
+      "line": 165
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 6011,
+      "line": 165
+   },
+   {
+      "type": "PHRASE",
+      "value": "umbrella",
+      "pos": 6015,
+      "line": 165
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to not",
+      "pos": 6024,
+      "line": 165
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 6031,
+      "line": 165
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6035,
+      "line": 165
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6036,
+      "line": 165
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 6037,
+      "line": 166
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 6039,
+      "line": 166
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 6041,
+      "line": 166
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6048,
+      "line": 166
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6049,
+      "line": 166
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 6050,
+      "line": 167
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 6051,
+      "line": 167
+   },
+   {
+      "type": "WORD",
+      "value": "action",
+      "pos": 6052,
+      "line": 167
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6059,
+      "line": 167
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Open umbrella",
+      "pos": 6060,
+      "line": 167
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6073,
+      "line": 167
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 6075,
+      "line": 167
+   },
+   {
+      "type": "PHRASE",
+      "value": "umbrella",
+      "pos": 6076,
+      "line": 167
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 6085,
+      "line": 167
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 6092,
+      "line": 167
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 6096,
+      "line": 167
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 6097,
+      "line": 167
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6101,
+      "line": 168
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 6102,
+      "line": 168
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6109,
+      "line": 168
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6110,
+      "line": 168
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 6111,
+      "line": 169
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The umbrella is now open.\n\t\t\t",
+      "pos": 6114,
+      "line": 169
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6143,
+      "line": 170
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 6144,
+      "line": 170
+   },
+   {
+      "type": "PHRASE",
+      "value": "umbrella",
+      "pos": 6148,
+      "line": 170
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to",
+      "pos": 6157,
+      "line": 170
+   },
+   {
+      "type": "PHRASE",
+      "value": "open",
+      "pos": 6160,
+      "line": 170
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6164,
+      "line": 170
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6165,
+      "line": 170
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 6166,
+      "line": 171
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 6168,
+      "line": 171
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 6170,
+      "line": 171
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6177,
+      "line": 171
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6178,
+      "line": 171
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 6179,
+      "line": 172
+   },
+   {
+      "type": "WORD",
+      "value": "actions",
+      "pos": 6181,
+      "line": 172
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6188,
+      "line": 172
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n\n",
+      "pos": 6189,
+      "line": 172
+   },
+   {
+      "type": "ENTITY_START",
+      "value": "::",
+      "pos": 6191,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 6194,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_TYPE",
+      "value": "--",
+      "pos": 6209,
+      "line": 174
+   },
+   {
+      "type": "WORD",
+      "value": "npc",
+      "pos": 6212,
+      "line": 174
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 6216,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "location",
+      "pos": 6217,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 6225,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "Stately Library",
+      "pos": 6227,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_PARAM_DELIM",
+      "value": "|",
+      "pos": 6243,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "flags",
+      "pos": 6245,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_PARAM_ASSIGN",
+      "value": ":",
+      "pos": 6250,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "engaged",
+      "pos": 6252,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_STATE_DELIM",
+      "value": ",",
+      "pos": 6259,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "book_read",
+      "pos": 6261,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_STATE_ASSIGN",
+      "value": "=",
+      "pos": 6270,
+      "line": 174
+   },
+   {
+      "type": "PHRASE",
+      "value": "false",
+      "pos": 6271,
+      "line": 174
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 6276,
+      "line": 174
+   },
+   {
+      "type": "ENTITY_END",
+      "value": "",
+      "pos": 6278,
+      "line": 175
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6278,
+      "line": 175
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 6279,
+      "line": 175
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6286,
+      "line": 175
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6287,
+      "line": 175
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 6288,
+      "line": 176
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "A ",
+      "pos": 6289,
+      "line": 176
+   },
+   {
+      "type": "ENTITY_REF_DELIMITER",
+      "value": "~",
+      "pos": 6291,
+      "line": 176
+   },
+   {
+      "type": "KEYWORD",
+      "value": "venerable sage",
+      "pos": 6292,
+      "line": 176
+   },
+   {
+      "type": "ENTITY_REF_DELIMITER",
+      "value": "~",
+      "pos": 6306,
+      "line": 176
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " is sitting in the corner of the room, reading a book.\n",
+      "pos": 6307,
+      "line": 176
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 6362,
+      "line": 177
+   },
+   {
+      "type": "WORD",
+      "value": "initial",
+      "pos": 6364,
+      "line": 177
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6371,
+      "line": 177
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6372,
+      "line": 177
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6373,
+      "line": 178
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 6374,
+      "line": 178
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6385,
+      "line": 178
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6386,
+      "line": 178
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 6387,
+      "line": 179
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You see a venerable sage sitting in the corner of the room, reading a book.  He is an old man with a long white beard and wise, thoughtful eyes.  His presence adds an air of mystery and knowledge to the library.",
+      "pos": 6388,
+      "line": 179
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "Perhaps he has some ",
+      "pos": 6602,
+      "line": 181
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6622,
+      "line": 181
+   },
+   {
+      "type": "WORD",
+      "value": "talk",
+      "pos": 6623,
+      "line": 181
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 6628,
+      "line": 181
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6643,
+      "line": 181
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "answers",
+      "pos": 6644,
+      "line": 181
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6651,
+      "line": 181
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6652,
+      "line": 181
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " for you.\n",
+      "pos": 6653,
+      "line": 181
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 6663,
+      "line": 182
+   },
+   {
+      "type": "WORD",
+      "value": "description",
+      "pos": 6665,
+      "line": 182
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6676,
+      "line": 182
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6677,
+      "line": 182
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6678,
+      "line": 183
+   },
+   {
+      "type": "WORD",
+      "value": "interact",
+      "pos": 6679,
+      "line": 183
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 6688,
+      "line": 183
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6702,
+      "line": 183
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6703,
+      "line": 183
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 6704,
+      "line": 184
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 6705,
+      "line": 184
+   },
+   {
+      "type": "WORD",
+      "value": "greeting",
+      "pos": 6706,
+      "line": 184
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 6714,
+      "line": 184
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The sage looks up from his book and nods at you. \"Greetings, traveler. How may I assist you on your journey?\"",
+      "pos": 6718,
+      "line": 185
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "You may discuss ",
+      "pos": 6831,
+      "line": 187
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6847,
+      "line": 187
+   },
+   {
+      "type": "WORD",
+      "value": "topics",
+      "pos": 6848,
+      "line": 187
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 6855,
+      "line": 187
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6869,
+      "line": 187
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": " with him.",
+      "pos": 6870,
+      "line": 187
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 6882,
+      "line": 188
+   },
+   {
+      "type": "WORD",
+      "value": "topic",
+      "pos": 6883,
+      "line": 188
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6889,
+      "line": 188
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "book",
+      "pos": 6890,
+      "line": 188
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 6894,
+      "line": 188
+   },
+   {
+      "type": "SET_OPEN",
+      "value": "(",
+      "pos": 6896,
+      "line": 188
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 6897,
+      "line": 188
+   },
+   {
+      "type": "RELOP",
+      "value": "is not",
+      "pos": 6912,
+      "line": 188
+   },
+   {
+      "type": "PHRASE",
+      "value": "book_read",
+      "pos": 6919,
+      "line": 188
+   },
+   {
+      "type": "SET_CLOSE",
+      "value": ")",
+      "pos": 6928,
+      "line": 188
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 6929,
+      "line": 188
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 6933,
+      "line": 189
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 6934,
+      "line": 189
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 6941,
+      "line": 189
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 6942,
+      "line": 189
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 6943,
+      "line": 190
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The sage looks up from his book and smiles. \"Ah, a fellow seeker of knowledge! Books are the keys to understanding the world around us.\"\n\t\t\t",
+      "pos": 6946,
+      "line": 190
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 7086,
+      "line": 191
+   },
+   {
+      "type": "WORD",
+      "value": "set",
+      "pos": 7087,
+      "line": 191
+   },
+   {
+      "type": "PHRASE",
+      "value": "venerable sage",
+      "pos": 7091,
+      "line": 191
+   },
+   {
+      "type": "ASSIGNOP",
+      "value": "to",
+      "pos": 7106,
+      "line": 191
+   },
+   {
+      "type": "PHRASE",
+      "value": "book_read",
+      "pos": 7109,
+      "line": 191
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 7118,
+      "line": 191
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 7119,
+      "line": 191
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t",
+      "pos": 7120,
+      "line": 192
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 7122,
+      "line": 192
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 7124,
+      "line": 192
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 7131,
+      "line": 192
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 7132,
+      "line": 192
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t",
+      "pos": 7133,
+      "line": 193
+   },
+   {
+      "type": "OPTION_OPEN",
+      "value": "<",
+      "pos": 7134,
+      "line": 193
+   },
+   {
+      "type": "WORD",
+      "value": "topic",
+      "pos": 7135,
+      "line": 193
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 7141,
+      "line": 193
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "wooden door",
+      "pos": 7142,
+      "line": 193
+   },
+   {
+      "type": "INLINE_DELIM",
+      "value": "`",
+      "pos": 7153,
+      "line": 193
+   },
+   {
+      "type": "OPTION_CLOSE",
+      "value": ">",
+      "pos": 7154,
+      "line": 193
+   },
+   {
+      "type": "MACRO_OPEN",
+      "value": "[",
+      "pos": 7158,
+      "line": 194
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 7159,
+      "line": 194
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 7166,
+      "line": 194
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 7167,
+      "line": 194
+   },
+   {
+      "type": "WHITESPACE",
+      "value": "\t\t\t",
+      "pos": 7168,
+      "line": 195
+   },
+   {
+      "type": "PARAGRAPH",
+      "value": "The sage looks up from his book and nods. \"That door leads to the study. It's a quiet place, perfect for reading or contemplation.\"\n\t\t",
+      "pos": 7171,
+      "line": 195
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 7305,
+      "line": 196
+   },
+   {
+      "type": "WORD",
+      "value": "present",
+      "pos": 7307,
+      "line": 196
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 7314,
+      "line": 196
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 7315,
+      "line": 196
+   },
+   {
+      "type": "MACRO_END",
+      "value": "[/",
+      "pos": 7316,
+      "line": 197
+   },
+   {
+      "type": "WORD",
+      "value": "interact",
+      "pos": 7318,
+      "line": 197
+   },
+   {
+      "type": "MACRO_CLOSE",
+      "value": "]",
+      "pos": 7326,
+      "line": 197
+   },
+   {
+      "type": "NEWLINES",
+      "value": "\n",
+      "pos": 7327,
+      "line": 197
+   },
+   {
+      "type": "EOF",
+      "value": "",
+      "pos": 7328,
+      "line": 198
+   }
+]

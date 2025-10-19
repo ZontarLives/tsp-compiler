@@ -799,24 +799,28 @@ export const definitions: Record<string, CommandDefinition> = {
     // Background Tracks
     playmusic: {
         type: cmdType.statement,
-        id: state.required,
+        // id: state.required,
+        inlineText: state.required,
         cond: state.optional,
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
             "volume": 0.7,
-            "fadeIn": 0,
-            "fadeOut": 0,
+            "mindelay": 0,
+            "maxdelay": 0,
+            "fadein": 0,
+            "fadeout": 0,
+            "looping": false,
         },
     },
     stopmusic: {
         type: cmdType.statement,
-        id: state.required,
+        // id: state.required,
         cond: state.optional,
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
-            "fadeOut": 0,
+            "fadeout": 0,
         },
     },
     // Different from stopmusic because it preserves the play position of the track for use with 'resume'.
@@ -827,7 +831,7 @@ export const definitions: Record<string, CommandDefinition> = {
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
-            "fadeOut": 0,
+            "fadeout": 0,
         },
     },
     resumemusic: {
@@ -837,33 +841,35 @@ export const definitions: Record<string, CommandDefinition> = {
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
-            "fadeIn": 0,
+            "fadein": 0,
         },
     },
 
     // Ambient tracks
     playambient: {
         type: cmdType.statement,
-        id: state.required,
+        inlineText: state.required,
         cond: state.optional,
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
             "volume": 0.7,
-            "minDelay": 0,
-            "maxDelay": 0,
-            "fadeIn": 0,
-            "fadeOut": 0,
+            "mindelay": 0,
+            "maxdelay": 0,
+            "fadein": 0,
+            "fadeout": 0,
+            "looping": false,
         },
     },
     stopambient: {
         type: cmdType.statement,
-        id: state.required,
+        // id: state.required,
+        inlineText: state.optional,
         cond: state.optional,
         // Initialize settings with default values.  They are ALL optional in the command line, so this is what
         // will be used if no params are provided.
         settings: {
-            "fadeOut": 0,
+            "fadeout": 0,
         },
     },
 
@@ -876,6 +882,23 @@ export const definitions: Record<string, CommandDefinition> = {
         // will be used if no params are provided.
         settings: {
             "volume": 0.7,
+            "mindelay": 0,
+            "maxdelay": 0,
+            "fadein": 0,
+            "fadeout": 0,
+            "looping": false,
+        },
+    },
+
+    stopsound: {
+        type: cmdType.statement,
+        // id: state.required,
+        inlineText: state.optional,
+        cond: state.optional,
+        // Initialize settings with default values.  They are ALL optional in the command line, so this is what
+        // will be used if no params are provided.
+        settings: {
+            "fadeout": 0,
         },
     },
 
